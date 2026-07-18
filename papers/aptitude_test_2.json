@@ -1,0 +1,504 @@
+{
+  "title": "Aptitude Assessment - Set 2",
+  "description": "Second comprehensive timed assessment covering Numerical, Reasoning, Advanced Quantitative, and Verbal skills.",
+  "sections": [
+    {
+      "name": "Numerical Ability",
+      "duration": 25,
+      "questions": [
+        {
+          "q": "Two trains of equal length are running on parallel lines in the same direction at 46 km/hr and 36 km/hr. The faster train passes the slower train in 36 seconds. What is the length of each train?",
+          "options": ["50 m", "72 m", "80 m", "82 m"],
+          "correct": 0,
+          "explanation": "Relative speed = 46 - 36 = 10 km/hr = 10 * (5/18) = 25/9 m/s. Distance covered in 36s = (25/9) * 36 = 100 m. Since distance = sum of lengths of two equal trains, each train = 100 / 2 = 50 m."
+        },
+        {
+          "q": "A sum amounts to Rs. 2,916 in 2 years and Rs. 3,149.28 in 3 years at compound interest. What is the sum?",
+          "options": ["Rs. 1,500", "Rs. 2,000", "Rs. 2,500", "Rs. 3,000"],
+          "correct": 2,
+          "explanation": "Interest for 3rd year = 3149.28 - 2916 = 233.28. Rate = (233.28 / 2916) * 100 = 8%. Sum * (1.08)^2 = 2916. Sum = 2916 / 1.1664 = Rs. 2,500."
+        },
+        {
+          "q": "Three partners A, B, C start a business. Twice A's capital is equal to thrice B's capital and B's capital is four times C's capital. Out of a total profit of Rs. 16,500 at the end of the year, B's share is:",
+          "options": ["Rs. 4,000", "Rs. 6,000", "Rs. 7,500", "Rs. 6,600"],
+          "correct": 1,
+          "explanation": "2A = 3B and B = 4C. Let C = x. Then B = 4x, and 2A = 12x -> A = 6x. Ratio A:B:C = 6:4:1. B's share = (4/11) * 16500 = Rs. 6,000."
+        },
+        {
+          "q": "The average age of a class of 39 students is 15 years. If the age of the teacher is included, the average increases by 3 months. Find the age of the teacher.",
+          "options": ["25 years", "27 years", "35 years", "45 years"],
+          "correct": 0,
+          "explanation": "Increase in total age = 40 persons * 3 months = 120 months = 10 years. Teacher's age = Old average + Increase = 15 + 10 = 25 years."
+        },
+        {
+          "q": "If a shopkeeper sells an item at a discount of 20% on the marked price, he makes a profit of 25%. If the marked price is Rs. 250, find the cost price.",
+          "options": ["Rs. 140", "Rs. 150", "Rs. 160", "Rs. 180"],
+          "correct": 2,
+          "explanation": "SP = 80% of 250 = Rs. 200. Profit = 25%, so SP = 1.25 * CP. 200 = 1.25 * CP. CP = 200 / 1.25 = Rs. 160."
+        },
+        {
+          "q": "Pipe A can fill a tank in 16 minutes and Pipe B empties it in 24 minutes. If both are opened together, after how many minutes should Pipe B be closed so that the tank is filled in 30 minutes?",
+          "options": ["18 minutes", "20 minutes", "21 minutes", "22 minutes"],
+          "correct": 2,
+          "explanation": "A is open for 30 mins. A's work in 30 mins = 30 / 16 = 15/8. To fill exactly 1 tank, B must empty (15/8 - 1) = 7/8 of the tank. B empties 1 tank in 24 mins, so it takes 24 * (7/8) = 21 minutes to empty 7/8."
+        },
+        {
+          "q": "In a mixture of 60 liters, the ratio of milk and water is 2:1. If the ratio is to be 1:2, then the quantity of water to be further added is:",
+          "options": ["20 liters", "30 liters", "40 liters", "60 liters"],
+          "correct": 3,
+          "explanation": "Initial Milk = (2/3)*60 = 40L, Water = 20L. Let x liters of water be added. 40 / (20 + x) = 1/2. 80 = 20 + x -> x = 60 liters."
+        },
+        {
+          "q": "A man can row 18 kmph in still water. It takes him thrice as long to row up as to row down the river. Find the rate of the stream.",
+          "options": ["6 kmph", "9 kmph", "12 kmph", "15 kmph"],
+          "correct": 1,
+          "explanation": "Let stream speed be v. Speed Upstream (U) = 18 - v, Downstream (D) = 18 + v. Time Up = 3 * Time Down. D = 3U. 18 + v = 3(18 - v). 18 + v = 54 - 3v. 4v = 36. v = 9 kmph."
+        },
+        {
+          "q": "A sum of Rs. 312 was divided among 100 boys and girls in such a way that each boy gets Rs. 3.60 and each girl gets Rs. 2.40. The number of girls is:",
+          "options": ["35", "40", "60", "65"],
+          "correct": 1,
+          "explanation": "Let boys be x and girls be y. x + y = 100. 3.6x + 2.4y = 312. Substitute x = 100 - y: 3.6(100 - y) + 2.4y = 312. 360 - 3.6y + 2.4y = 312. 1.2y = 48. y = 40. The number of girls is 40."
+        },
+        {
+          "q": "The difference between the squares of two consecutive odd integers is always divisible by:",
+          "options": ["3", "6", "7", "8"],
+          "correct": 3,
+          "explanation": "Let the numbers be (2n+1) and (2n-1). Difference = (2n+1)^2 - (2n-1)^2 = 4n^2 + 4n + 1 - (4n^2 - 4n + 1) = 8n. This is always a multiple of 8."
+        },
+        {
+          "q": "By walking at 3/4 of his usual speed, a man reaches his office 20 minutes late. What is his usual time to reach the office?",
+          "options": ["40 mins", "60 mins", "80 mins", "120 mins"],
+          "correct": 1,
+          "explanation": "New speed = 3/4 of usual speed. New time = 4/3 of usual time. Difference = 1/3 of usual time = 20 mins. Usual time = 20 * 3 = 60 mins."
+        },
+        {
+          "q": "The HCF of two numbers is 11 and their LCM is 7700. If one of the numbers is 275, find the other number.",
+          "options": ["279", "283", "308", "318"],
+          "correct": 2,
+          "explanation": "Product of numbers = HCF * LCM. 275 * x = 11 * 7700. x = (11 * 7700) / 275 = 7700 / 25 = 308."
+        },
+        {
+          "q": "A metallic cone of radius 12 cm and height 24 cm is melted and made into spheres of radius 2 cm each. How many spheres are formed?",
+          "options": ["108", "144", "216", "288"],
+          "correct": 0,
+          "explanation": "Volume of cone = (1/3) * pi * 12^2 * 24. Volume of one sphere = (4/3) * pi * 2^3. Number of spheres = ((1/3)*pi*144*24) / ((4/3)*pi*8) = (144*24) / (4*8) = 108 spheres."
+        },
+        {
+          "q": "In an election, a candidate who gets 84% of the votes is elected by a majority of 476 votes. What is the total number of votes polled?",
+          "options": ["600", "700", "800", "900"],
+          "correct": 1,
+          "explanation": "Winner = 84%, Loser = 16%. Majority = 84% - 16% = 68%. 68% of total votes = 476. Total votes = 476 / 0.68 = 700."
+        },
+        {
+          "q": "The length and breadth of a rectangle are increased by 20% and 30% respectively. What is the percentage increase in the area of the rectangle?",
+          "options": ["50%", "56%", "60%", "66%"],
+          "correct": 1,
+          "explanation": "Successive percentage formula: a + b + (ab/100) = 20 + 30 + (20*30/100) = 50 + 6 = 56%."
+        },
+        {
+          "q": "If A = x% of y and B = y% of x, then which of the following is true?",
+          "options": ["A is smaller than B", "A is greater than B", "Relationship cannot be determined", "A is equal to B"],
+          "correct": 3,
+          "explanation": "A = (x/100)*y = xy/100. B = (y/100)*x = xy/100. Thus, A = B."
+        },
+        {
+          "q": "The cost price of an article is Rs. 800. After allowing a discount of 10%, a dealer still makes a profit of 12.5%. Find the marked price of the article.",
+          "options": ["Rs. 950", "Rs. 1,000", "Rs. 1,050", "Rs. 1,200"],
+          "correct": 1,
+          "explanation": "Profit = 12.5% on 800 = 100. SP = 800 + 100 = 900. SP = 90% of Marked Price. 900 = 0.90 * MP. MP = 1000."
+        },
+        {
+          "q": "Find the missing number in the series: 2, 5, 11, 23, 47, ?",
+          "options": ["77", "85", "95", "101"],
+          "correct": 2,
+          "explanation": "The pattern is (previous number * 2) + 1. 47 * 2 + 1 = 94 + 1 = 95."
+        },
+        {
+          "q": "A boy multiplied a number by 3/5 instead of 5/3. What is the percentage error in the calculation?",
+          "options": ["44%", "54%", "64%", "74%"],
+          "correct": 2,
+          "explanation": "Let the number be 15. Correct result = 15 * 5/3 = 25. Incorrect result = 15 * 3/5 = 9. Error = 25 - 9 = 16. % Error = (16/25) * 100 = 64%."
+        },
+        {
+          "q": "What is the unit digit in the product (3^65 * 6^59 * 7^71)?",
+          "options": ["1", "2", "4", "6"],
+          "correct": 2,
+          "explanation": "Unit digit of 3^65: 65/4 leaves remainder 1, so 3^1 = 3. Unit digit of 6^59 is always 6. Unit digit of 7^71: 71/4 leaves remainder 3, so 7^3 ends in 3. Product unit digit = 3 * 6 * 3 = 54, which ends in 4."
+        }
+      ]
+    },
+    {
+      "name": "Reasoning Ability",
+      "duration": 25,
+      "questions": [
+        {
+          "q": "If 'WATER' is written as 'YCVGT', then what is written as 'HKTG'?",
+          "options": ["FIRE", "IRFE", "FRIE", "EIRF"],
+          "correct": 0,
+          "explanation": "'WATER' -> 'YCVGT' is a +2 shift for each letter. We need to find the word that results in 'HKTG' after a +2 shift. So we reverse it (-2): H-2=F, K-2=I, T-2=R, G-2=E. The word is FIRE."
+        },
+        {
+          "q": "Looking at a portrait of a man, Harsh said, 'His mother is the wife of my father's son. Brothers and sisters I have none.' At whose portrait was Harsh looking?",
+          "options": ["His son", "His nephew", "His cousin", "His uncle"],
+          "correct": 0,
+          "explanation": "'My father's son' is Harsh himself (since he has no brothers). The man's mother is Harsh's wife. Therefore, the man is Harsh's son."
+        },
+        {
+          "q": "A man is facing North-West. He turns 90 degrees in the clockwise direction, then 180 degrees in the anticlockwise direction, and then another 90 degrees in the same direction. Which direction is he facing now?",
+          "options": ["South", "South-West", "West", "South-East"],
+          "correct": 3,
+          "explanation": "Initial: NW. +90 (CW) = NE. -180 (ACW) = SW. -90 (ACW) = SE. Final direction is South-East."
+        },
+        {
+          "q": "Find the odd one out among the given groups of letters.",
+          "options": ["CEHL", "KMPT", "OQTX", "SUWZ"],
+          "correct": 3,
+          "explanation": "The intervals between letters: C(+2)E(+3)H(+4)L. K(+2)M(+3)P(+4)T. O(+2)Q(+3)T(+4)X. S(+2)U(+2)W(+3)Z. The last one does not follow the +2, +3, +4 pattern."
+        },
+        {
+          "q": "Statements: All birds are trees. Some trees are hens.\nConclusions:\nI. Some birds are hens.\nII. Some hens are trees.",
+          "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+          "correct": 1,
+          "explanation": "All birds are trees, but hens only intersect with some trees. We don't know if they intersect with the 'bird' part of trees. So I does not follow. II follows directly from 'Some trees are hens'."
+        },
+        {
+          "q": "Six persons A, B, C, D, E and F sit in a circle facing the center. B is between F and C. A is between E and D. F is to the left of D. Who is between A and F?",
+          "options": ["B", "C", "D", "E"],
+          "correct": 2,
+          "explanation": "D is to the right of F (F is left of D). A is between E and D, meaning the order is F-D-A-E. B is between F and C, meaning E-C-B-F. The full circle is F-D-A-E-C-B. The person between A and F is D."
+        },
+        {
+          "q": "If 4 * 5 = 1625 and 7 * 8 = 4964, then what is 9 * 6?",
+          "options": ["8136", "3681", "8163", "9654"],
+          "correct": 0,
+          "explanation": "The logic is concatenating the squares of the two numbers. 4^2 = 16, 5^2 = 25 -> 1625. For 9 * 6, it is 9^2 = 81 and 6^2 = 36 -> 8136."
+        },
+        {
+          "q": "In a row of boys, if A who is 10th from the left and B who is 9th from the right interchange their positions, A becomes 15th from the left. How many boys are there in the row?",
+          "options": ["23", "27", "28", "31"],
+          "correct": 0,
+          "explanation": "A's new position is 15th from the left, which is the same as B's old position (9th from the right). Total boys = (Position from left + Position from right) - 1 = 15 + 9 - 1 = 23."
+        },
+        {
+          "q": "Choose the correct water image of the word 'BRIDGE'.",
+          "options": ["BBIOCE", "EGDIBB", "BBIOGE", "None of the above"],
+          "correct": 3,
+          "explanation": "A water image flips the letters vertically. 'B' stays mostly same, 'R' flips its leg up, 'I' stays same, 'D' stays same, 'G' flips, 'E' stays same. None of the textual options perfectly represent the vertical flip."
+        },
+        {
+          "q": "At what time between 4 and 5 o'clock will the hands of a watch point in opposite directions?",
+          "options": ["45 minutes past 4", "40 minutes past 4", "54 6/11 minutes past 4", "50 4/11 minutes past 4"],
+          "correct": 2,
+          "explanation": "They point opposite when they are 30 minute spaces apart. At 4 o'clock they are 20 min spaces apart. The minute hand must gain 50 minute spaces. Time = 50 * (12/11) = 600/11 = 54 6/11 minutes past 4."
+        },
+        {
+          "q": "Find the missing term in the sequence: Z, W, S, P, L, I, E, ?",
+          "options": ["B", "C", "D", "A"],
+          "correct": 0,
+          "explanation": "The sequence alternates between jumping back 3 and jumping back 4 in the alphabet. Z(-3)=W, W(-4)=S, S(-3)=P, P(-4)=L, L(-3)=I, I(-4)=E, E(-3)=B."
+        },
+        {
+          "q": "Clock : Time :: Thermometer : ?",
+          "options": ["Heat", "Radiation", "Energy", "Temperature"],
+          "correct": 3,
+          "explanation": "A clock measures time. A thermometer measures temperature."
+        },
+        {
+          "q": "If it was Sunday on Jan 1, 2006, what was the day of the week Jan 1, 2010?",
+          "options": ["Sunday", "Monday", "Friday", "Thursday"],
+          "correct": 2,
+          "explanation": "2006 = 1 odd day, 2007 = 1 odd day, 2008 (leap) = 2 odd days, 2009 = 1 odd day. Total odd days = 5. Sunday + 5 days = Friday."
+        },
+        {
+          "q": "Find the missing number in the grid:\n 8   3   21\n 6   5   25\n 12  2   ?",
+          "options": ["22", "24", "26", "28"],
+          "correct": 0,
+          "explanation": "Logic: (Column 1 - 1) * Column 2. Row 1: (8-1)*3 = 21. Row 2: (6-1)*5 = 25. Row 3: (12-1)*2 = 22."
+        },
+        {
+          "q": "Which of the following diagrams indicates the best relation between Travelers, Train and Bus?",
+          "options": ["Concentric circles", "Three disjoint circles", "Two intersecting circles within a larger one", "One circle intersecting two disjoint circles"],
+          "correct": 3,
+          "explanation": "Some travelers travel by train, some by bus. Trains and buses are separate entities. So, 'Travelers' is a circle that intersects the 'Train' circle and the 'Bus' circle, which are disjoint from each other."
+        },
+        {
+          "q": "If P + Q means P is the husband of Q; P / Q means P is the sister of Q; P * Q means P is the son of Q. How is D related to A in D * B + C / A?",
+          "options": ["Nephew", "Son", "Brother-in-law", "Uncle"],
+          "correct": 0,
+          "explanation": "D * B: D is the son of B. B + C: B is husband of C (so C is mother of D). C / A: C is the sister of A. Therefore, D is the son of A's sister, which makes D the nephew of A."
+        },
+        {
+          "q": "Identify the word that cannot be formed using the letters of the word 'RECREATION'.",
+          "options": ["RATION", "TORN", "ACTION", "REFER"],
+          "correct": 3,
+          "explanation": "The word 'REFER' requires two 'F's, but there are no 'F's in 'RECREATION'."
+        },
+        {
+          "q": "Statement: 'Please drop this letter in the letterbox.' - An officer tells his assistant.\nAssumptions:\nI. The assistant knows the address of the letterbox.\nII. The assistant will follow the instructions.",
+          "options": ["Only assumption I is implicit", "Only assumption II is implicit", "Both I and II are implicit", "Neither I nor II is implicit"],
+          "correct": 2,
+          "explanation": "The officer assumes the assistant knows where the letterbox is, otherwise he would have given directions. Giving an order assumes the subordinate will comply."
+        },
+        {
+          "q": "A clock is placed such that at 12 noon, its minute hand points towards North-East. In which direction will its hour hand point at 1:30 PM?",
+          "options": ["East", "South", "North-West", "South-East"],
+          "correct": 0,
+          "explanation": "At 12 noon, both hands are together. If they point NE, the whole clock is rotated 45 degrees clockwise. At 1:30, the true hour hand is halfway between 1 and 2 (approx 45 degrees from 12). Add the 45 degree clock rotation = 90 degrees from original North. It points East."
+        },
+        {
+          "q": "Insert the arithmetical signs in the following equation: 15 _ 5 _ 3 _ 2 = 11",
+          "options": ["+, -, *", "*, -, +", "/, *, +", "-, *, /"],
+          "correct": 2,
+          "explanation": "Substituting option C: 15 / 5 * 3 + 2. Using BODMAS: 3 * 3 + 2 = 9 + 2 = 11."
+        }
+      ]
+    },
+    {
+      "name": "Advanced Quantitative and Reasoning Ability",
+      "duration": 25,
+      "questions": [
+        {
+          "q": "A bag contains 6 red balls, 4 blue balls, and 2 green balls. 3 balls are drawn at random. What is the probability that at least one ball is green?",
+          "options": ["11/55", "25/55", "31/55", "12/55"],
+          "correct": 1,
+          "explanation": "Total ways to draw 3 balls = 12C3 = 220. Ways to draw 3 balls with NO green balls (only from the 10 red/blue) = 10C3 = 120. P(no green) = 120/220 = 6/11. P(at least one green) = 1 - 6/11 = 5/11 = 25/55."
+        },
+        {
+          "q": "In how many ways can the letters of the word 'CORPORATION' be arranged so that all the vowels always come together?",
+          "options": ["50400", "42000", "54000", "72000"],
+          "correct": 0,
+          "explanation": "Vowels: O,O,A,I,O. Consonants: C,R,P,R,T,N. Total 11 letters. Group the 5 vowels as 1 unit. We have 6 consonants + 1 unit = 7 units. They can be arranged in 7! / 2! (two R's) = 2520 ways. The 5 vowels can be arranged among themselves in 5! / 3! (three O's) = 20 ways. Total arrangements = 2520 * 20 = 50400."
+        },
+        {
+          "q": "Data Sufficiency: What is the volume of the cylindrical tank?\nStatement I: The area of the base is 154 sq meters.\nStatement II: The height of the tank is twice its radius.",
+          "options": ["Statement I alone is sufficient", "Statement II alone is sufficient", "Both statements together are required", "Both statements together are insufficient"],
+          "correct": 2,
+          "explanation": "I gives pi*r^2 = 154, so r can be found. But height is unknown. II gives h = 2r, but no absolute values. Combining them: from I we get r = 7. From II we get h = 14. Volume = pi*r^2*h can now be calculated. Both are needed."
+        },
+        {
+          "q": "A dishonest dealer marks up his goods by 20% and gives a discount of 10% to the customer. Besides, he also uses a faulty balance that weighs 800 grams instead of 1 kg while selling. What is his net profit percentage?",
+          "options": ["Loss of 5%", "Profit of 12.5%", "Profit of 35%", "Profit of 15%"],
+          "correct": 2,
+          "explanation": "Net factor = 1.2 * 0.9 * (1000/800) = 1.08 * 1.25 = 1.35. Therefore, he earns a 35% profit."
+        },
+        {
+          "q": "Eight friends are sitting around a circular table. 4 are facing inside and 4 are facing outside. P sits third to the right of Q, who faces inside. R sits second to the left of P. S sits opposite to R and faces the same direction as R. T sits immediate right of S. If T faces outside, which direction does P face?",
+          "options": ["Inside", "Outside", "Same as Q", "Cannot be determined"],
+          "correct": 1,
+          "explanation": "Q faces inside. P is 3rd to right of Q. R is 2nd to left of P. Based on complex seating rules, assigning directions to all 8 maintaining the 4 in/4 out balance typically resolves P's direction. P must face outside to satisfy the constraints."
+        },
+        {
+          "q": "A can complete a piece of work in 10 days, B in 15 days, and C in 20 days. A and C worked together for 2 days, and then A was replaced by B. In how many days altogether was the work completed?",
+          "options": ["6 days", "8 days", "10 days", "12 days"],
+          "correct": 1,
+          "explanation": "LCM of 10, 15, 20 is 60. Efficiencies: A=6, B=4, C=3. A and C work for 2 days: (6+3)*2 = 18 units. Remaining work = 60 - 18 = 42 units. Now B and C work: (4+3) = 7 units/day. Time taken by B and C = 42 / 7 = 6 days. Total days = 2 + 6 = 8 days."
+        },
+        {
+          "q": "A right circular cone is exactly inscribed inside a cylinder of the same base and height. If the cylinder is filled with water, and the cone is solid and sinks to the bottom, what fraction of the water overflows?",
+          "options": ["1/2", "1/3", "2/3", "1/4"],
+          "correct": 1,
+          "explanation": "Volume of cylinder = pi*r^2*h. Volume of cone = (1/3)*pi*r^2*h. The cone displaces exactly its own volume. Therefore, 1/3 of the volume of the cylinder (and thus 1/3 of the water) overflows."
+        },
+        {
+          "q": "Critical Reasoning: 'Switching to a four-day workweek without reducing pay leads to a 20% increase in overall company productivity.' Which of the following, if true, provides the strongest support for this claim?",
+          "options": ["Employees use their extra day off to catch up on personal errands.", "Companies that maintained a five-day workweek saw stagnant productivity.", "Shorter workweeks drastically reduce employee burnout and sick days, keeping output high.", "Most workers prefer a four-day workweek."],
+          "correct": 2,
+          "explanation": "Option C provides a direct causal mechanism (reduced burnout and sick days) explaining *how* productivity increases despite fewer working hours, directly supporting the claim."
+        },
+        {
+          "q": "What are the last two digits of the number 7^45?",
+          "options": ["07", "43", "49", "93"],
+          "correct": 0,
+          "explanation": "Find 7^45 mod 100. Euler's totient for 100 is 40. 7^40 = 1 (mod 100). So 7^45 = 7^5 (mod 100). 7^1=07, 7^2=49, 7^3=343 (43), 7^4 = 43*7 = 301 (01). 7^5 = 01 * 7 = 07. The last two digits are 07."
+        },
+        {
+          "q": "A vessel contains 80 liters of pure wine. 8 liters of wine is removed and replaced with water. This operation is performed three times in total. What is the ratio of wine to water in the final mixture?",
+          "options": ["729 : 271", "729 : 1000", "271 : 729", "512 : 488"],
+          "correct": 0,
+          "explanation": "Amount of wine left = 80 * (1 - 8/80)^3 = 80 * (9/10)^3 = 80 * 0.729 = 58.32 liters. Water = 80 - 58.32 = 21.68 liters. Ratio = 58.32 : 21.68 = 5832 : 2168. Dividing by 8: 729 : 271."
+        },
+        {
+          "q": "An escalator moves upwards at a constant speed. Ravi walks up the escalator taking 40 steps to reach the top. Shyam runs up the same escalator, taking 60 steps to reach the top. If Shyam's walking speed is three times Ravi's, how many steps are visible on the escalator when it is stationary?",
+          "options": ["60", "80", "100", "120"],
+          "correct": 1,
+          "explanation": "Let escalator speed be e steps/sec. Let Ravi's speed be r steps/sec, so Shyam's is 3r. Total steps N = 40 + (e * 40/r) = 60 + (e * 60/3r). Solving gives N = 80 steps."
+        },
+        {
+          "q": "In a coded inequality, A @ B means A is greater than B. A # B means A is less than B. A $ B means A is equal to B. \nStatements: P @ Q, Q $ R, R # S. \nConclusion: I. P @ S \nII. S @ Q",
+          "options": ["Only I is true", "Only II is true", "Both are true", "Neither is true"],
+          "correct": 1,
+          "explanation": "Decoding: P > Q, Q = R, R < S. So P > Q = R < S. We cannot establish a relationship between P and S, so I (P > S) is not necessarily true. II is S > Q. Since Q = R and R < S, S > Q is true. So only II is true."
+        },
+        {
+          "q": "Six boxes are stacked one above the other. The Red box is just above the Green box. There are two boxes between the Blue and Yellow boxes. The Yellow box is at the bottom. The White box is not adjacent to the Blue box. The Black box is somewhere above the White box. Which box is at the topmost position?",
+          "options": ["Black", "Blue", "Red", "White"],
+          "correct": 2,
+          "explanation": "Yellow is at bottom (1). Two boxes between Blue and Yellow means Blue is at 4. Red is just above Green. The open adjacent spots are 2 and 3, or 5 and 6. Following rules, Red=6, Green=5. Topmost is Red."
+        },
+        {
+          "q": "Data Sufficiency: Is integer x divisible by 6?\nStatement I: x is divisible by 12.\nStatement II: x is divisible by 3.",
+          "options": ["Statement I alone is sufficient", "Statement II alone is sufficient", "Either alone is sufficient", "Both are required"],
+          "correct": 0,
+          "explanation": "If x is divisible by 12, it must be divisible by 6 (since 6 is a factor of 12). So I is sufficient. If x is divisible by 3, it might be 9 (not divisible by 6) or 12 (divisible by 6). So II is not sufficient."
+        }
+      ]
+    },
+    {
+      "name": "Verbal Ability",
+      "duration": 26,
+      "questions": [
+        {
+          "q": "Read the passage: 'The invention of the printing press in the 15th century by Johannes Gutenberg marked a profound shift in human history. Prior to this, books were hand-copied, making them expensive and rare. The press democratized knowledge, fueling the Renaissance, the Scientific Revolution, and the Reformation by allowing ideas to spread rapidly across borders.'\nAccording to the passage, why were books rare before the 15th century?",
+          "options": ["People lacked the ability to read", "They were exclusively controlled by the Church", "They had to be copied by hand", "Paper had not yet been invented"],
+          "correct": 2,
+          "explanation": "The passage explicitly states that prior to the printing press, 'books were hand-copied, making them expensive and rare.'"
+        },
+        {
+          "q": "Based on the passage, which of the following was a direct consequence of the printing press?",
+          "options": ["The immediate end of the Dark Ages", "The democratization of knowledge", "The invention of the scientific method", "A decrease in literacy rates"],
+          "correct": 1,
+          "explanation": "The text explicitly mentions that 'The press democratized knowledge...'"
+        },
+        {
+          "q": "Choose the synonym for 'PROFOUND' as used in the passage.",
+          "options": ["Shallow", "Superficial", "Significant", "Sudden"],
+          "correct": 2,
+          "explanation": "In the context of 'a profound shift in human history', profound means very great, intense, or significant."
+        },
+        {
+          "q": "Para Jumbles:\nP. The Romans built an extensive network of roads.\nQ. This ensured that legions could be deployed rapidly to any trouble spot.\nR. 'All roads lead to Rome' was not just a metaphor, but an administrative reality.\nS. These roads were primarily constructed for military purposes.",
+          "options": ["PRSQ", "PSRQ", "SPQR", "RSQP"],
+          "correct": 1,
+          "explanation": "P introduces the Roman roads. S explains their primary purpose (military). Q elaborates on that military purpose (deploying legions). R provides a concluding summary thought."
+        },
+        {
+          "q": "Para Jumbles:\nP. It is often argued that technology makes us more isolated.\nQ. However, others point out that it connects us with people across the globe.\nR. Social media platforms allow us to maintain long-distance relationships.\nS. Yet, we may ignore the people sitting right next to us in a cafe.",
+          "options": ["PQRS", "PSQR", "QPRS", "SRQP"],
+          "correct": 0,
+          "explanation": "P introduces the isolation argument. Q provides the counter-argument (connection). R gives an example of the connection. S provides a counter-example to R, supporting P, bringing the thought full circle."
+        },
+        {
+          "q": "Para Jumbles:\nP. The company reported a massive loss in the third quarter.\nQ. The CEO was forced to resign immediately.\nR. Investors panicked and sold off their shares rapidly.\nS. This led to a sharp drop in the company's stock price.",
+          "options": ["PRSQ", "PQRS", "SRQP", "RQPS"],
+          "correct": 0,
+          "explanation": "The loss (P) caused investor panic (R), which led to the stock dropping (S), culminating in the CEO's resignation (Q)."
+        },
+        {
+          "q": "Fill in the blank: The politician's speech was full of ________, designed to appeal to emotions rather than logic.",
+          "options": ["substance", "rhetoric", "pragmatism", "statistics"],
+          "correct": 1,
+          "explanation": "'Rhetoric' refers to language designed to have a persuasive or impressive effect, often lacking in sincere content or strict logic."
+        },
+        {
+          "q": "Fill in the blank: After the grueling hike, the availability of fresh water was an absolute ________.",
+          "options": ["luxury", "hindrance", "necessity", "afterthought"],
+          "correct": 2,
+          "explanation": "Following a grueling hike, water is essential for survival and recovery, making it a 'necessity'."
+        },
+        {
+          "q": "Fill in the blank: Her ________ handling of the delicate negotiations prevented a diplomatic crisis.",
+          "options": ["clumsy", "inept", "adroit", "careless"],
+          "correct": 2,
+          "explanation": "'Adroit' means clever or skillful in using the hands or mind, which is required to prevent a crisis."
+        },
+        {
+          "q": "Fill in the blank: The ancient ruins were entirely ________ by the dense jungle foliage.",
+          "options": ["exposed", "illuminated", "obscured", "elevated"],
+          "correct": 2,
+          "explanation": "Dense jungle foliage would hide or cover the ruins, meaning they were 'obscured'."
+        },
+        {
+          "q": "Identify the grammatical error: 'Every one of the shirts have a green collar.'",
+          "options": ["Every one", "of the shirts", "have a", "green collar"],
+          "correct": 2,
+          "explanation": "The subject 'Every one' is singular, so the verb must be singular ('has' instead of 'have')."
+        },
+        {
+          "q": "Identify the grammatical error: 'He is the most smartest boy in the entire class.'",
+          "options": ["He is the", "most smartest", "boy in the", "entire class"],
+          "correct": 1,
+          "explanation": "'Smartest' is already a superlative. Adding 'most' creates a double superlative, which is grammatically incorrect."
+        },
+        {
+          "q": "Identify the grammatical error: 'She prefers reading books than watching television.'",
+          "options": ["She prefers", "reading books", "than watching", "television"],
+          "correct": 2,
+          "explanation": "The verb 'prefer' takes the preposition 'to', not 'than'. It should be 'prefers reading books to watching television'."
+        },
+        {
+          "q": "Identify the grammatical error: 'Hardly had I reached the station, then the train left.'",
+          "options": ["Hardly had", "I reached", "the station, then", "the train left"],
+          "correct": 2,
+          "explanation": "The correct correlative conjunction pair is 'hardly... when', not 'hardly... then'."
+        },
+        {
+          "q": "Synonym for 'CANDID':",
+          "options": ["Deceptive", "Frank", "Secretive", "Shy"],
+          "correct": 1,
+          "explanation": "'Candid' means truthful and straightforward, which is synonymous with 'frank'."
+        },
+        {
+          "q": "Synonym for 'PRAGMATIC':",
+          "options": ["Idealistic", "Practical", "Theoretical", "Romantic"],
+          "correct": 1,
+          "explanation": "'Pragmatic' means dealing with things sensibly and realistically, i.e., practical."
+        },
+        {
+          "q": "Antonym for 'ARROGANT':",
+          "options": ["Haughty", "Proud", "Humble", "Conceited"],
+          "correct": 2,
+          "explanation": "'Arrogant' means having an exaggerated sense of one's own importance. 'Humble' is the direct opposite."
+        },
+        {
+          "q": "Antonym for 'DILIGENT':",
+          "options": ["Industrious", "Hardworking", "Lazy", "Careful"],
+          "correct": 2,
+          "explanation": "'Diligent' means having or showing care and conscientiousness in one's work. 'Lazy' is the opposite."
+        },
+        {
+          "q": "Idiom Meaning: What does 'Spill the beans' mean?",
+          "options": ["To drop a plate of food", "To reveal a secret", "To plant a garden", "To make a mess"],
+          "correct": 1,
+          "explanation": "This idiom means to reveal secret information unintentionally or indiscreetly."
+        },
+        {
+          "q": "Idiom Meaning: What does 'Burn the midnight oil' mean?",
+          "options": ["To start a fire", "To waste electricity", "To work or study late into the night", "To cook late at night"],
+          "correct": 2,
+          "explanation": "This refers to staying up late to work or study, originally by the light of an oil lamp."
+        },
+        {
+          "q": "Idiom Meaning: What does 'A blessing in disguise' mean?",
+          "options": ["A priest in costume", "A good thing that seemed bad at first", "A curse that looks like a gift", "A magical spell"],
+          "correct": 1,
+          "explanation": "This refers to an apparent misfortune that eventually has good results."
+        },
+        {
+          "q": "Sentence Improvement: 'I look forward to meet you next week.'",
+          "options": ["to meeting you", "to met you", "for meeting you", "No improvement needed"],
+          "correct": 0,
+          "explanation": "In the phrase 'look forward to', 'to' is a preposition, so it must be followed by a noun or a gerund (an '-ing' verb)."
+        },
+        {
+          "q": "Sentence Improvement: 'He denied that he had not stolen the money.'",
+          "options": ["that he did not steal", "that he had stolen", "that he has not stolen", "No improvement needed"],
+          "correct": 1,
+          "explanation": "'Denied' already implies a negative. Using 'had not' creates a double negative. It should be 'denied that he had stolen'."
+        },
+        {
+          "q": "Sentence Improvement: 'If I will get the promotion, I will buy a new car.'",
+          "options": ["If I gets", "If I get", "If I got", "No improvement needed"],
+          "correct": 1,
+          "explanation": "In a Type 1 conditional sentence, the 'if' clause uses the simple present tense ('If I get')."
+        },
+        {
+          "q": "One word substitution: 'A place where coins, medals, or tokens are made.'",
+          "options": ["Foundry", "Mint", "Factory", "Refinery"],
+          "correct": 1,
+          "explanation": "A mint is a primary industrial facility which manufactures coins that can be used as currency."
+        }
+      ]
+    }
+  ]
+}

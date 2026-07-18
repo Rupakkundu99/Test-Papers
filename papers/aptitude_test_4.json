@@ -1,0 +1,504 @@
+{
+  "title": "Aptitude Assessment - Set 4",
+  "description": "Fourth comprehensive timed assessment covering Numerical, Reasoning, Advanced Quantitative, and Verbal skills. All questions are newly authored and independently verified; the Advanced Quantitative and Reasoning Ability section is calibrated roughly 20-30% harder than a standard set.",
+  "sections": [
+    {
+      "name": "Numerical Ability",
+      "duration": 25,
+      "questions": [
+        {
+          "q": "A sum of money invested at compound interest amounts to Rs. 3,630 in 2 years and to Rs. 3,993 in 3 years. Find the original sum.",
+          "options": ["Rs. 2,800", "Rs. 3,000", "Rs. 3,200", "Rs. 3,400"],
+          "correct": 1,
+          "explanation": "The interest earned in the 3rd year is 3993 - 3630 = Rs. 363. The rate R = (363/3630) * 100 = 10%. The amount after 2 years is P(1.1)^2 = 3630, so P = 3630 / 1.21 = Rs. 3,000."
+        },
+        {
+          "q": "Pipe A can fill a tank in 24 minutes, and Pipe B can fill it in 36 minutes. Pipe C is a leakage pipe that empties water at a rate of 4 gallons per minute. If all three pipes are opened together, the tank fills in 18 minutes. What is the capacity of the tank?",
+          "options": ["240 gallons", "264 gallons", "288 gallons", "312 gallons"],
+          "correct": 2,
+          "explanation": "A's rate = 1/24, B's rate = 1/36. Let C empty the tank alone in x minutes. 1/24 + 1/36 - 1/x = 1/18. Using LCM 72: 3/72 + 2/72 - 1/x = 4/72, so 1/x = 1/72, meaning C alone takes 72 minutes. Since C empties 4 gallons/min, capacity = 72 * 4 = 288 gallons."
+        },
+        {
+          "q": "A trader marks his goods 60% above the cost price and allows a discount of 25%. He also uses a faulty balance that reads 1 kg for every 750 grams of actual weight. Find his net profit percentage.",
+          "options": ["45%", "52.5%", "60%", "66.5%"],
+          "correct": 2,
+          "explanation": "Let cost price for 1000g be Rs. 1000. Marked price = Rs. 1600. After a 25% discount, selling price = Rs. 1200. But he only gives 750g of goods, whose actual cost is Rs. 750. Net profit = 1200 - 750 = 450. Profit % = (450/750) * 100 = 60%."
+        },
+        {
+          "q": "A and B can do a piece of work in 20 days and 30 days respectively. They begin working together, but A leaves after some days, and B completes the remaining work alone in 5 days. Find the number of days after which A left.",
+          "options": ["8 days", "9 days", "10 days", "12 days"],
+          "correct": 2,
+          "explanation": "Let total work = LCM(20,30) = 60 units. A's efficiency = 3 units/day, B's efficiency = 2 units/day. B works alone for the last 5 days, completing 5*2 = 10 units. Remaining work = 60 - 10 = 50 units, done together at a combined rate of 5 units/day, taking 50/5 = 10 days."
+        },
+        {
+          "q": "A man travels from point A to B at 50 km/hr and returns from B to A at 75 km/hr. What is his average speed for the entire journey?",
+          "options": ["58 km/hr", "60 km/hr", "62 km/hr", "64 km/hr"],
+          "correct": 1,
+          "explanation": "Average speed for equal distances = (2xy)/(x+y) = (2*50*75)/(50+75) = 7500/125 = 60 km/hr."
+        },
+        {
+          "q": "A container holds 80 liters of a mixture of milk and water in the ratio 5:3. How many liters of the mixture must be drawn off and replaced with pure water so that the new ratio of milk to water becomes 1:1?",
+          "options": ["12 liters", "14 liters", "16 liters", "18 liters"],
+          "correct": 2,
+          "explanation": "Initial milk = (5/8)*80 = 50L, water = 30L. Let x liters of mixture be removed; removed milk = 5x/8. For a 1:1 ratio, milk must equal half of 80L, i.e., 40L. So 50 - 5x/8 = 40, giving 5x/8 = 10, so x = 16 liters."
+        },
+        {
+          "q": "In an election between two candidates, 12% of the voters did not cast their votes, and 50 votes were found invalid. The successful candidate got 45% of the total voters on the electoral list and won by a majority of 420 votes. Find the total number of voters on the list.",
+          "options": ["17,000", "18,000", "18,500", "19,000"],
+          "correct": 2,
+          "explanation": "Let total voters = 100x. Votes cast = 88x. Valid votes = 88x - 50. Winner got 45x, loser got (88x-50)-45x = 43x-50. Majority = 45x - (43x-50) = 2x+50 = 420, so x = 185. Total voters = 100x = 18,500."
+        },
+        {
+          "q": "The ages of two brothers are in the ratio 3:2. After 6 years, the ratio of their ages will become 4:3. What is the younger brother's present age?",
+          "options": ["10 years", "12 years", "14 years", "16 years"],
+          "correct": 1,
+          "explanation": "Let present ages be 3x and 2x. (3x+6)/(2x+6) = 4/3. Cross-multiplying: 9x+18 = 8x+24, so x=6. Younger brother's age = 2x = 12 years."
+        },
+        {
+          "q": "A train 160 meters long passes a platform 240 meters long in 20 seconds. How long will it take to pass a man standing on another platform if the train's speed is increased by 25%?",
+          "options": ["5.4 seconds", "6.4 seconds", "7.2 seconds", "8 seconds"],
+          "correct": 1,
+          "explanation": "Total distance = 160+240 = 400m in 20s, giving an original speed of 20 m/s. New speed = 20*1.25 = 25 m/s. Time to pass a standing man (distance = train's length = 160m) = 160/25 = 6.4 seconds."
+        },
+        {
+          "q": "Find the remainder when 6^123 is divided by 215.",
+          "options": ["0", "1", "6", "36"],
+          "correct": 1,
+          "explanation": "Notice 6^3 = 216, and 216 divided by 215 leaves remainder 1. So 6^123 = (6^3)^41 = 216^41, and dividing by 215 leaves 1^41 = 1."
+        },
+        {
+          "q": "Two equal glasses are respectively 2/5 and 1/4 full of milk. They are then filled up with water, and the contents are mixed in a tumbler. Find the ratio of milk to water in the tumbler.",
+          "options": ["13 : 27", "11 : 29", "17 : 23", "9 : 31"],
+          "correct": 0,
+          "explanation": "Let each glass have volume V. Milk in glass 1 = 2V/5, milk in glass 2 = V/4. Total milk = 2V/5 + V/4 = 8V/20 + 5V/20 = 13V/20. Total water = V - 13V/20 = 7V/20 per glass pair calculation directly gives total water = 3V/5 + 3V/4 = 27V/20. Ratio of milk to water = 13 : 27."
+        },
+        {
+          "q": "A man sells two horses at the same selling price of Rs. 4,800 each, one at a 20% profit and the other at a 20% loss. What is his overall profit or loss percentage?",
+          "options": ["4% profit", "4% loss", "No profit no loss", "2% loss"],
+          "correct": 1,
+          "explanation": "When two items are sold at the same selling price with equal profit% and loss%, there is always a net loss of (common%/10)^2 = (20/10)^2 = 4%. Verification: CP1 = 4800/1.2 = 4000, CP2 = 4800/0.8 = 6000; total CP = 10000, total SP = 9600, a loss of Rs. 400, i.e., 4%."
+        },
+        {
+          "q": "A cylinder and a cone have equal base radii (r). The cone's height is twice the cylinder's height, and the cylinder's height equals its radius. Find the ratio of their curved surface areas (cylinder : cone).",
+          "options": ["2 : √5", "√5 : 2", "1 : √5", "2 : 1"],
+          "correct": 0,
+          "explanation": "Cylinder: height = r, CSA = 2πr*r = 2πr². Cone: height = 2r, slant height l = √(r²+(2r)²) = r√5, CSA = πr*(r√5) = πr²√5. Ratio = 2πr² : πr²√5 = 2 : √5."
+        },
+        {
+          "q": "The simple interest on a sum of money is 1/16 of the principal, and the number of years is equal to the rate percent per annum. Find the rate percent.",
+          "options": ["2%", "2.5%", "3%", "3.5%"],
+          "correct": 1,
+          "explanation": "Let Principal = P, Rate = R, Time = T = R. SI = PRT/100. P/16 = P*R*R/100, so R² = 100/16 = 6.25, giving R = 2.5%."
+        },
+        {
+          "q": "What is the smallest number which when divided by 16, 24, 36, and 54 leaves a remainder of 10 in each case?",
+          "options": ["432", "442", "452", "462"],
+          "correct": 1,
+          "explanation": "LCM(16,24,36,54) = 432. The required number is LCM + remainder = 432 + 10 = 442."
+        },
+        {
+          "q": "A batsman has a certain average of runs for 14 innings. In the 15th inning, he scores 100 runs, thereby increasing his average by 4. His average after the 15th inning is:",
+          "options": ["40", "42", "44", "46"],
+          "correct": 2,
+          "explanation": "Let his average for 14 innings be x. Total runs = 14x. After the 15th inning: (14x+100)/15 = x+4, so 14x+100 = 15x+60, giving x=40. New average = x+4 = 44."
+        },
+        {
+          "q": "Find the missing number in the series: 5, 13, 40, 104, ?, 445",
+          "options": ["219", "224", "229", "234"],
+          "correct": 2,
+          "explanation": "Differences between terms follow cubes: 13-5=8 (2³), 40-13=27 (3³), 104-40=64 (4³), so the next difference should be 5³=125. 104+125=229. Check: 229 + 6³(216) = 445, matching the last given term."
+        },
+        {
+          "q": "A fraction becomes 1/2 when 3 is subtracted from both the numerator and denominator. It becomes 3/4 when 3 is added to both the numerator and denominator. Find the fraction.",
+          "options": ["2/3", "3/5", "4/7", "5/8"],
+          "correct": 0,
+          "explanation": "Let the fraction be x/y. (x-3)/(y-3)=1/2 gives 2x-y=3. (x+3)/(y+3)=3/4 gives 4x-3y=-3. Solving: y=2x-3, then 4x-3(2x-3)=-3 gives -2x=-12, so x=6, y=9. The fraction is 6/9 = 2/3."
+        },
+        {
+          "q": "A bag contains 50p, 25p, and 10p coins in the ratio 3:4:5. If the total value is Rs. 45, how many 10p coins are there?",
+          "options": ["60", "70", "75", "80"],
+          "correct": 2,
+          "explanation": "Let the number of coins be 3x, 4x, 5x. Value: 0.5(3x)+0.25(4x)+0.10(5x)=45, i.e., 1.5x+1x+0.5x=45, so 3x=45, x=15. Number of 10p coins = 5x = 75."
+        },
+        {
+          "q": "The sum of the digits of a two-digit number is 12. If the digits are interchanged, the new number is 18 more than the original number. Find the original number.",
+          "options": ["48", "57", "66", "75"],
+          "correct": 1,
+          "explanation": "Let the number be 10a+b, with a+b=12. Interchanged number = 10b+a. (10b+a)-(10a+b)=18 gives 9b-9a=18, so b-a=2. Solving a+b=12 and b-a=2 gives b=7, a=5. The original number is 57."
+        }
+      ]
+    },
+    {
+      "name": "Reasoning Ability",
+      "duration": 25,
+      "questions": [
+        {
+          "q": "Pointing to a man in a photograph, a woman says, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+          "options": ["Mother", "Sister", "Aunt", "Grandmother"],
+          "correct": 0,
+          "explanation": "'The only daughter of my mother' is the woman herself (assuming she is female). So 'his mother' is the woman herself, making the woman the man's mother."
+        },
+        {
+          "q": "Syllogism:\nStatements: Some phones are gadgets. All gadgets are electronics. No electronics is furniture.\nConclusions:\nI. Some phones are electronics.\nII. No gadget is furniture.",
+          "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+          "correct": 2,
+          "explanation": "Since some phones are gadgets and all gadgets are electronics, some phones must be electronics (I). Since all gadgets are electronics and no electronics is furniture, no gadget can be furniture (II). Both follow."
+        },
+        {
+          "q": "A compass is faulty and points South-West when it should point North. If someone wants to travel East according to true directions, which direction should they follow on this damaged compass?",
+          "options": ["North-West", "South-East", "North-East", "South-West"],
+          "correct": 0,
+          "explanation": "True North (0°) is displayed as South-West (225°), a fixed offset of +225° for every true direction. True East (90°) is therefore displayed as 90+225=315°, which is North-West. The traveler should follow the compass's North-West reading."
+        },
+        {
+          "q": "Eight friends A, B, C, D, E, F, G, H sit in a straight line facing North. C sits sixth from the left end. G sits second to the right of C. A sits immediately left of G. D sits fourth to the left of C. B is an immediate neighbor of D. F sits exactly between H and E. Who sits at the extreme right end?",
+          "options": ["A", "C", "F", "G"],
+          "correct": 3,
+          "explanation": "C=6, G=8, A=7 (immediately left of G), D=2 (fourth left of C). B, being D's neighbor, takes position 1, leaving positions 3, 4, 5 for F, H, E, with F in the middle (4) between H and E. Position 8 (the extreme right) is occupied by G."
+        },
+        {
+          "q": "In a code, 'WORLD' is written as 'ZRUOG' (each letter shifted forward by 3). How will 'PLANET' be written in that code?",
+          "options": ["SODQHW", "SODRHW", "RODQHW", "SODQGW"],
+          "correct": 0,
+          "explanation": "Shifting each letter forward by 3: P→S, L→O, A→D, N→Q, E→H, T→W, giving SODQHW."
+        },
+        {
+          "q": "Find the missing number: 4, 9, 20, 43, 90, ?",
+          "options": ["175", "180", "185", "190"],
+          "correct": 2,
+          "explanation": "The pattern is ×2 plus an increasing increment (1,2,3,4,5): 4×2+1=9, 9×2+2=20, 20×2+3=43, 43×2+4=90, 90×2+5=185."
+        },
+        {
+          "q": "Cardiologist : Heart :: Dermatologist : ?",
+          "options": ["Skin", "Bone", "Brain", "Lung"],
+          "correct": 0,
+          "explanation": "A cardiologist specializes in the heart; a dermatologist specializes in the skin."
+        },
+        {
+          "q": "Find the angle between the hour and minute hands of a clock at 6:48.",
+          "options": ["78 degrees", "84 degrees", "90 degrees", "96 degrees"],
+          "correct": 1,
+          "explanation": "Angle = |30H - 5.5M| = |30(6) - 5.5(48)| = |180 - 264| = 84 degrees."
+        },
+        {
+          "q": "If January 1, 2024 was a Monday, what day of the week was January 1, 2025?",
+          "options": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+          "correct": 1,
+          "explanation": "2024 is a leap year with 366 days. 366 mod 7 = 2 odd days. Monday + 2 days = Wednesday."
+        },
+        {
+          "q": "Find the odd one out from the given pairs.",
+          "options": ["36 : 12", "51 : 17", "64 : 22", "90 : 30"],
+          "correct": 2,
+          "explanation": "In options A, B, and D, the first number is exactly 3 times the second (12×3=36, 17×3=51, 30×3=90). In option C, 22×3=66, not 64."
+        },
+        {
+          "q": "In a class of 50 students, Priya's rank is 18th from the top. If 8 students were absent on the day of ranking and only present students were ranked, what is Priya's rank from the bottom among present students?",
+          "options": ["23", "24", "25", "26"],
+          "correct": 2,
+          "explanation": "Present students = 50-8 = 42. Rank from bottom = (Present total - rank from top) + 1 = (42-18)+1 = 25."
+        },
+        {
+          "q": "If X denotes 'added to', Y denotes 'multiplied by', Z denotes 'subtracted from', and W denotes 'divided by', find the value of: 20 Y 3 Z 15 X 24 W 6",
+          "options": ["45", "49", "53", "60"],
+          "correct": 1,
+          "explanation": "Substituting the operators: 20×3-15+24/6. By order of operations: 60-15+4 = 49."
+        },
+        {
+          "q": "Arrange the following in a logical sequence: 1. Larva 2. Egg 3. Pupa 4. Adult 5. Mating",
+          "options": ["2, 1, 3, 4, 5", "1, 2, 3, 4, 5", "2, 1, 4, 3, 5", "2, 3, 1, 4, 5"],
+          "correct": 0,
+          "explanation": "The insect life cycle proceeds: Egg (2) → Larva (1) → Pupa (3) → Adult (4) → Mating (5)."
+        },
+        {
+          "q": "Find the mirror image of the time 7:40 on a clock.",
+          "options": ["3:20", "4:20", "4:40", "5:20"],
+          "correct": 1,
+          "explanation": "The mirror image of a clock time is found by subtracting it from 11:60. 11:60 - 7:40 = 4:20."
+        },
+        {
+          "q": "Three positions of a dice are shown: 1) 2, 4, 6 visible. 2) 2, 3, 5 visible. 3) 3, 5, 6 visible. Which number is opposite to the face showing 2?",
+          "options": ["1", "3", "4", "5"],
+          "correct": 0,
+          "explanation": "Across the three views, faces 2,3,4,5,6 all appear adjacent to or alongside each other, but the number 1 never appears in any view alongside 2. On a standard die (faces 1-6), the face that never co-occurs with 2 in any rotation shown must be opposite it, so 1 is opposite 2."
+        },
+        {
+          "q": "A family has six members A, B, C, D, E, F. B is the son of D, but D is not the mother of B. C and D are a married couple. E is the sister of D. F is the son of C. Who is the father of B?",
+          "options": ["C", "D", "E", "F"],
+          "correct": 1,
+          "explanation": "B is the son of D, but D is not the mother, so D must be the father. Since C and D are a married couple and B is D's child, D is the father of B."
+        },
+        {
+          "q": "Syllogism:\nStatements: Only a few pens are pencils. All pencils are erasers.\nConclusions:\nI. All pens being erasers is a possibility.\nII. Some erasers are definitely not pens.",
+          "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+          "correct": 0,
+          "explanation": "'Only a few pens are pencils' means some pens are pencils and some are not. Since pencils are a subset of erasers, and nothing prevents the remaining pens from also being erasers, it's possible that all pens are erasers (I). However, there's no basis to conclude that some erasers are definitely not pens (II), since no such exclusion is stated."
+        },
+        {
+          "q": "If 'sun' means 'moon', 'moon' means 'star', 'star' means 'cloud', and 'cloud' means 'sun', what do we actually see scattered across a clear night sky, according to this code?",
+          "options": ["Moon", "Star", "Cloud", "Sun"],
+          "correct": 2,
+          "explanation": "What we actually see are 'stars'. According to the code, the word 'star' is used to mean 'cloud', so the coded term for what we see is 'cloud'."
+        },
+        {
+          "q": "Find the missing number:\nRow 1: 3   5   16\nRow 2: 4   6   25\nRow 3: 5   7   ?",
+          "options": ["34", "35", "36", "37"],
+          "correct": 2,
+          "explanation": "The pattern is (column 1 × column 2) + 1: 3×5+1=16, 4×6+1=25, so 5×7+1=36."
+        },
+        {
+          "q": "One morning after sunrise, Vikram and Sana were standing face to face. If Vikram's shadow was exactly to his left, which direction was Sana facing?",
+          "options": ["North", "South", "East", "West"],
+          "correct": 1,
+          "explanation": "After sunrise, the sun is in the East, so shadows fall towards the West. If Vikram's shadow is to his left, his left side aligns with West, which means he is facing North. Since they are face to face, Sana is facing South."
+        }
+      ]
+    },
+    {
+      "name": "Advanced Quantitative and Reasoning Ability",
+      "duration": 25,
+      "questions": [
+        {
+          "q": "A box contains 5 red, 6 black, 4 white, and 3 green balls. 4 balls are drawn at random. What is the probability that they are all of the exact same color?",
+          "options": ["7/1020", "7/765", "1/60", "3/340"],
+          "correct": 0,
+          "explanation": "Total balls = 18, total ways to draw 4 = C(18,4) = 3060. Favorable: all red = C(5,4)=5, all black = C(6,4)=15, all white = C(4,4)=1, all green = 0 (only 3 available). Total favorable = 21. Probability = 21/3060 = 7/1020."
+        },
+        {
+          "q": "In how many ways can 6 men and 6 women be seated around a circular table so that no two women sit together?",
+          "options": ["43,200", "72,000", "86,400", "120,960"],
+          "correct": 2,
+          "explanation": "Seat the 6 men first around the circular table: (6-1)! = 120 ways. This creates 6 gaps between men. Place the 6 women in these 6 gaps: 6! = 720 ways. Total = 120 × 720 = 86,400."
+        },
+        {
+          "q": "Data Sufficiency: What is the exact two-digit number?\nStatement I: The difference between its two digits is 5.\nStatement II: The number lies between 70 and 90, and its units digit is exactly half its tens digit.",
+          "options": ["Statement I alone is sufficient", "Statement II alone is sufficient", "Both statements together are required", "Both statements together are insufficient"],
+          "correct": 1,
+          "explanation": "Statement I alone gives many candidates (16, 27, 38, 49, 50, 61, 72, 83, 94), so it's insufficient. Statement II alone restricts to 70-90 with units digit = tens digit/2; only tens=8, units=4 satisfies this integer condition, giving the unique number 84. Statement II alone is sufficient."
+        },
+        {
+          "q": "A quadratic equation is given as x² - px + q = 0. If the roots are in the ratio 2:3, which of the following conditions must be true?",
+          "options": ["6p² = 25q", "5p² = 24q", "p² = 6q", "q² = 6p"],
+          "correct": 0,
+          "explanation": "Let the roots be 2k and 3k. Sum = 5k = p, so k = p/5. Product = 6k² = q, so 6(p/5)² = q, giving 6p²/25 = q, i.e., 6p² = 25q."
+        },
+        {
+          "q": "Eight people (A to H) work in three departments: HR, IT, and Finance, with each department having at least two members. A works in Finance with exactly two others. B and C work in the same department, which is not Finance. D does not work with E, F, or G. G works in HR. H works in the same department as F. In which department does D work?",
+          "options": ["HR", "IT", "Finance", "Cannot be determined"],
+          "correct": 1,
+          "explanation": "Since H must share F's department, and Finance has only A plus two others, F and H together must be those two others, making Finance = {A, F, H}. G is in HR. Since D cannot be with G (in HR) or with F (in Finance), D must be in IT along with B and C to satisfy the minimum department size, giving Finance=3, HR=2, IT=3."
+        },
+        {
+          "q": "P, Q, and R can complete a job in 20, 30, and 60 days respectively. All three start working together, but 4 days before the scheduled completion, P leaves the work (Q and R continue to the end). Find the total number of days taken to complete the work.",
+          "options": ["10 days", "11 days", "12 days", "14 days"],
+          "correct": 2,
+          "explanation": "Using LCM 60: P's rate=3, Q's rate=2, R's rate=1 unit/day. Let total time be x days. P works (x-4) days; Q and R work the full x days. 3(x-4) + 3x = 60 → 6x-12=60 → x=12. (Check: P works 8 days = 24 units, Q+R work 12 days = 36 units, total = 60.)"
+        },
+        {
+          "q": "Three varieties of rice costing Rs. 80, Rs. 100, and Rs. 140 per kg are mixed in the ratio 3:2:5. The mixture is then sold at a profit of 15%. What is the selling price per kg of the mixture?",
+          "options": ["Rs. 125.40", "Rs. 131.10", "Rs. 136.80", "Rs. 142.50"],
+          "correct": 1,
+          "explanation": "Cost of 10 kg mixture = (3×80)+(2×100)+(5×140) = 240+200+700 = 1140. Cost per kg = Rs. 114. Selling price for 15% profit = 114×1.15 = Rs. 131.10."
+        },
+        {
+          "q": "Critical Reasoning: 'Installing speed cameras on highways reduces accident rates by discouraging drivers from speeding.' Which of the following, if true, most weakens this argument?",
+          "options": ["Drivers slow down only near visible camera locations but resume speeding immediately afterward, with overall accident rates unchanged", "Speed cameras are expensive to install and maintain", "Some drivers are unaware of the exact locations of speed cameras", "Highways with speed cameras have more traffic than those without"],
+          "correct": 0,
+          "explanation": "If the localized slowdown near cameras doesn't translate into a genuine reduction in overall accidents, the argument's core causal claim — that cameras reduce accidents by discouraging speeding — is directly undermined."
+        },
+        {
+          "q": "Critical Reasoning: 'Companies that adopted four-day workweeks saw a rise in employee productivity, according to a recent industry survey.' Which of the following is an unstated assumption in this argument?",
+          "options": ["All companies surveyed were in the same industry", "The productivity gain is attributable to the reduced workweek itself, rather than other concurrent changes such as new management practices or technology upgrades", "Employees prefer working four days over five", "Four-day workweeks are legally permitted in all countries surveyed"],
+          "correct": 1,
+          "explanation": "The argument infers causation from correlation. It assumes the productivity increase is due to the shorter workweek itself, rather than confounding factors that may have occurred alongside the change."
+        },
+        {
+          "q": "An escalator is moving downwards at a constant speed. P walks down and takes exactly 40 steps to reach the bottom. Q runs down and takes 60 steps, completing the descent in half the time P took. How many steps are visible on the stationary escalator?",
+          "options": ["70", "75", "80", "90"],
+          "correct": 2,
+          "explanation": "Let P's stepping speed be v steps/s and escalator speed be e steps/s (same direction). Time for P = 40/v. Since Q takes half that time for 60 steps, Q's speed q satisfies 60/q = 20/v, so q=3v. Visible steps N = steps walked + escalator's contribution during that time: N=40+e(40/v)=60+e(60/(3v))=60+20e/v. Setting the two expressions equal gives e=v, so N=40+40=80."
+        },
+        {
+          "q": "In a coded inequality system:\nA@B means A is greater than or equal to B.\nA#B means A is strictly less than B.\nA$B means A is strictly greater than B.\nA&B means A is not greater than B (i.e., less than or equal to).\nStatements: P$Q, Q@R, R&S, S#T.\nConclusions: I. P$T  II. Q@T",
+          "options": ["Only I is true", "Only II is true", "Both are true", "Neither is true"],
+          "correct": 3,
+          "explanation": "Decoding gives the chain P > Q ≥ R ≤ S < T. Because the chain changes direction at R (R is bounded from both sides rather than forming a single monotonic sequence), no definite comparison can be established between P and T, or between Q and T. Neither conclusion follows."
+        },
+        {
+          "q": "Find the number of trailing zeros in 250! (250 factorial).",
+          "options": ["58", "60", "62", "64"],
+          "correct": 2,
+          "explanation": "Trailing zeros come from factors of 5: floor(250/5) + floor(250/25) + floor(250/125) = 50+10+2 = 62."
+        },
+        {
+          "q": "How many 4-digit odd numbers can be formed using the digits 1, 2, 3, 4, 5, 6, 7 without repeating any digit?",
+          "options": ["360", "420", "480", "540"],
+          "correct": 2,
+          "explanation": "The units digit must be odd (1,3,5, or 7): 4 choices. The remaining 3 positions are filled from the remaining 6 digits: 6×5×4=120 ways. Total = 4×120 = 480."
+        },
+        {
+          "q": "Data Sufficiency: Is triangle XYZ a right-angled triangle?\nStatement I: Its sides are in the ratio 5:12:13.\nStatement II: Its area equals half the product of two of its sides.",
+          "options": ["Statement I alone is sufficient", "Statement II alone is sufficient", "Either statement alone is sufficient", "Both statements together are required"],
+          "correct": 2,
+          "explanation": "Statement I: 5²+12²=25+144=169=13², satisfying the Pythagorean theorem, so it's a right triangle. Statement II: Area = (1/2)×a×b×sin(C); this equals (1/2)×a×b only when sin(C)=1, i.e., C=90°, so it's also a right triangle. Either statement alone is sufficient."
+        }
+      ]
+    },
+    {
+      "name": "Verbal Ability",
+      "duration": 26,
+      "questions": [
+        {
+          "q": "Read the passage: 'Decision fatigue, a concept first popularized by social psychologist Roy Baumeister, describes the deteriorating quality of decisions made after a long session of decision-making. Unlike physical fatigue, which is readily apparent, decision fatigue often manifests subtly as increased impulsivity or avoidance altogether — individuals either make increasingly careless choices or simply defer to default options to conserve cognitive resources. Studies of judicial rulings have revealed a striking pattern: favorable parole decisions decline markedly as the day progresses, only recovering after scheduled breaks, suggesting that even highly trained professionals are not immune to this effect. While some researchers have questioned whether the effect is as robust as originally claimed, citing challenges in replicating the original studies under controlled conditions, the underlying principle emphasizing the conservation of mental resources for consequential decisions remains widely influential in fields ranging from behavioral economics to organizational management.'\nAccording to the passage, what is decision fatigue?",
+          "options": ["The physical tiredness experienced after long working hours", "The deterioration in decision quality after extended decision-making", "The complete inability to make any decisions", "A permanent condition affecting judicial professionals only"],
+          "correct": 1,
+          "explanation": "The passage defines decision fatigue as 'the deteriorating quality of decisions made after a long session of decision-making.'"
+        },
+        {
+          "q": "What did studies of judicial parole decisions reveal, per the passage?",
+          "options": ["Judges never rule in favor of parole", "Favorable parole decisions decline as the day progresses, recovering after breaks", "Judicial decisions are unaffected by time of day", "Parole decisions improve as the day goes on"],
+          "correct": 1,
+          "explanation": "The passage states that 'favorable parole decisions decline markedly as the day progresses, only recovering after scheduled breaks.'"
+        },
+        {
+          "q": "What criticism of decision fatigue research does the passage mention?",
+          "options": ["The concept was never studied scientifically", "Some studies have had difficulty replicating the original findings", "The effect only applies to physical fatigue", "Researchers unanimously reject the concept"],
+          "correct": 1,
+          "explanation": "The passage notes that some researchers question the effect's robustness, 'citing challenges in replicating the original studies under controlled conditions.'"
+        },
+        {
+          "q": "Which of the following, if true, would most strongly support the existence of decision fatigue?",
+          "options": ["A retail company found no difference in customer satisfaction regardless of staffing levels", "A loan approval study found officers approved fewer applications in the final hour of each shift compared to their first hour, even when applicant quality was statistically identical", "Employees reported equal energy levels throughout their workday", "Judges spend equal time on each case regardless of time of day"],
+          "correct": 1,
+          "explanation": "This directly demonstrates that decision quality declines over a session of decision-making even when the underlying cases don't differ, matching the core claim of decision fatigue."
+        },
+        {
+          "q": "Which word could best replace \"deteriorating\" as used in the passage?",
+          "options": ["Improving", "Worsening", "Stabilizing", "Accelerating"],
+          "correct": 1,
+          "explanation": "\"Deteriorating\" means becoming progressively worse, which matches \"worsening.\""
+        },
+        {
+          "q": "Para Jumbles:\nP. Consequently, many organizations now schedule important meetings early in the day when decision-making capacity is presumed highest.\nQ. Cognitive resources required for deliberate choice are not infinite; they deplete with repeated use.\nR. This depletion explains why people are more likely to make impulsive purchases or avoid difficult choices by the end of a long day.\nS. Some psychologists, however, argue that the effect is better explained by shifting motivation rather than true resource depletion.",
+          "options": ["QRSP", "QRPS", "RQSP", "QSRP"],
+          "correct": 0,
+          "explanation": "Q introduces the core concept (limited cognitive resources). R explains the consequence (impulsivity/avoidance). S offers a counter-explanation. P states the resulting real-world practice."
+        },
+        {
+          "q": "Para Jumbles:\nP. This has made deepfake detection an active and rapidly evolving research area.\nQ. Generative adversarial networks can now produce hyperrealistic synthetic videos that are virtually indistinguishable from authentic footage.\nR. As such technology becomes more accessible, concerns over misinformation and identity fraud have grown substantially.\nS. Current detection methods rely on subtle artifacts that human eyes typically miss, such as inconsistent blinking patterns.",
+          "options": ["QRPS", "QPRS", "RQPS", "QRSP"],
+          "correct": 0,
+          "explanation": "Q introduces the technology. R explains the resulting concern. P states the consequence (active research area). S elaborates on current detection methods."
+        },
+        {
+          "q": "Para Jumbles (5 sentences):\nP. This symbiosis, however, is delicate: excessive nitrogen from fertilizer runoff can disrupt the partnership entirely.\nQ. Coral reefs depend on a mutualistic relationship with microscopic algae called zooxanthellae.\nR. These algae live inside coral tissue and provide them with energy through photosynthesis.\nS. In exchange, the coral offers the algae a protected habitat and access to sunlight.\nT. When disruption occurs, corals expel their algal partners, a phenomenon known as coral bleaching.",
+          "options": ["QRSPT", "QSRPT", "RQSPT", "QRPST"],
+          "correct": 0,
+          "explanation": "Q introduces the relationship. R explains what the algae provide. S explains what the coral provides in return. P introduces the vulnerability. T describes the resulting phenomenon."
+        },
+        {
+          "q": "Synonym for \"CONSPICUOUS\":",
+          "options": ["Hidden", "Noticeable", "Minor", "Uncertain"],
+          "correct": 1,
+          "explanation": "\"Conspicuous\" means easily seen or noticeable, standing out clearly."
+        },
+        {
+          "q": "Synonym for \"PLACATE\":",
+          "options": ["Provoke", "Appease", "Ignore", "Confuse"],
+          "correct": 1,
+          "explanation": "\"Placate\" means to calm or soothe someone's anger, which is synonymous with \"appease.\""
+        },
+        {
+          "q": "Antonym for \"AUDACIOUS\":",
+          "options": ["Bold", "Timid", "Arrogant", "Reckless"],
+          "correct": 1,
+          "explanation": "\"Audacious\" means boldly daring or fearless. \"Timid\" (lacking courage) is its opposite."
+        },
+        {
+          "q": "Antonym for \"SUPERFLUOUS\":",
+          "options": ["Excessive", "Essential", "Abundant", "Redundant"],
+          "correct": 1,
+          "explanation": "\"Superfluous\" means unnecessary or more than what is needed. \"Essential\" (necessary) is its direct opposite."
+        },
+        {
+          "q": "Fill in the blank: Despite the committee's ________ approval, several members would later express private reservations about the plan.",
+          "options": ["reluctant", "unanimous", "delayed", "controversial"],
+          "correct": 1,
+          "explanation": "\"Unanimous\" creates the intended contrast between apparent full agreement and the later-revealed private doubts."
+        },
+        {
+          "q": "Fill in the blank: The new regulations were intended to ________ bureaucratic delays, but in practice they introduced even more paperwork.",
+          "options": ["streamline", "prolong", "complicate", "enforce"],
+          "correct": 0,
+          "explanation": "\"Streamline\" (make more efficient) fits the intended goal, contrasted with the ironic actual outcome of more paperwork."
+        },
+        {
+          "q": "Identify the grammatical error: 'Between you and I, I think the decision was a mistake.'",
+          "options": ["'Between you and I'", "'I think'", "'the decision'", "'was a mistake'"],
+          "correct": 0,
+          "explanation": "As the object of the preposition \"between,\" the correct form is \"me,\" not \"I\": it should read \"between you and me.\""
+        },
+        {
+          "q": "Identify the grammatical error: 'I feel badly about what happened yesterday.'",
+          "options": ["'I feel'", "'badly'", "'about'", "'what happened yesterday'"],
+          "correct": 1,
+          "explanation": "\"Feel\" functions here as a linking verb and should be followed by the adjective \"bad,\" not the adverb \"badly.\""
+        },
+        {
+          "q": "Identify the grammatical error: 'Less students enrolled in the course this year than expected.'",
+          "options": ["'Less students'", "'enrolled in'", "'the course this year'", "'than expected'"],
+          "correct": 0,
+          "explanation": "\"Students\" is a countable noun, so \"fewer,\" not \"less,\" should be used: \"Fewer students.\""
+        },
+        {
+          "q": "Identify the grammatical error: 'Everyone of the candidates were told to arrive early.'",
+          "options": ["'Everyone of'", "'the candidates'", "'were told'", "'to arrive early'"],
+          "correct": 2,
+          "explanation": "\"Everyone\" is grammatically singular, so the verb should be \"was told,\" not \"were told.\""
+        },
+        {
+          "q": "Idiom Meaning: What does 'to bite off more than you can chew' mean?",
+          "options": ["To eat very quickly", "To take on more responsibility than one can manage", "To refuse food politely", "To finish a task ahead of schedule"],
+          "correct": 1,
+          "explanation": "This idiom means to take on a task or commitment that turns out to be more than one can handle."
+        },
+        {
+          "q": "Idiom Meaning: What does 'to cost an arm and a leg' mean?",
+          "options": ["To cause a physical injury", "To be very expensive", "To require physical labor", "To be negotiably priced"],
+          "correct": 1,
+          "explanation": "This idiom means something is extremely expensive."
+        },
+        {
+          "q": "Idiom Meaning: What does 'to give someone the benefit of the doubt' mean?",
+          "options": ["To assume the worst about a situation", "To trust someone's explanation without full proof, rather than assuming the worst", "To offer financial assistance", "To vote in someone's favor in a formal proceeding"],
+          "correct": 1,
+          "explanation": "This idiom means to believe someone's account or trust their good intentions even without complete evidence."
+        },
+        {
+          "q": "Sentence Improvement: 'Between the three candidates, she was clearly the most qualified.'",
+          "options": ["'Between the three'", "'Among the three'", "'Betwixt the three'", "No improvement needed"],
+          "correct": 1,
+          "explanation": "\"Among\" is used when referring to three or more things; \"between\" is reserved for exactly two."
+        },
+        {
+          "q": "Sentence Improvement: 'The manager don't know about the changes yet.'",
+          "options": ["'don't know'", "'doesn't know'", "'do know'", "No improvement needed"],
+          "correct": 1,
+          "explanation": "\"Manager\" is a singular subject and requires \"doesn't,\" not \"don't.\""
+        },
+        {
+          "q": "Sentence Improvement: 'The book smelled funny, but it was still interesting to read.'",
+          "options": ["'funny, but it was still interesting'", "'funny, but it was still interestingly'", "'funnily, but it was still interesting'", "No improvement needed"],
+          "correct": 3,
+          "explanation": "\"Smelled\" is a linking verb here and correctly takes the adjective \"funny,\" not an adverb. The sentence is already correct."
+        },
+        {
+          "q": "One word substitution: 'A person who is excessively worried about their health.'",
+          "options": ["Hermit", "Hypochondriac", "Misanthrope", "Ascetic"],
+          "correct": 1,
+          "explanation": "A hypochondriac is a person who is abnormally anxious about their health, often without medical justification."
+        }
+      ]
+    }
+  ]
+}

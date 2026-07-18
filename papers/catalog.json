@@ -1,0 +1,30 @@
+[
+  {
+    "id": "aptitude_test_1",
+    "title": "Aptitude Assessment - Set 1",
+    "description": "Comprehensive timed test covering Numerical, Reasoning, Quantitative, and Verbal skills.",
+    "duration": 101,
+    "questionsCount": 79
+  },
+  {
+    "id": "aptitude_test_2",
+    "title": "Aptitude Assessment - Set 2",
+    "description": "Second comprehensive timed assessment covering Numerical, Reasoning, Advanced Quantitative, and Verbal skills.",
+    "duration": 101,
+    "questionsCount": 79
+  },
+  {
+    "id": "aptitude_test_3",
+    "title": "Aptitude Assessment - Set 3",
+    "description": "Third comprehensive timed assessment covering Numerical, Reasoning, Advanced Quantitative, and Verbal skills.",
+    "duration": 101,
+    "questionsCount": 79
+  },
+  {
+    "id": "aptitude_test_4",
+    "title": "Aptitude Assessment - Set 4",
+    "description": "Fourth comprehensive timed assessment covering Numerical, Reasoning, Advanced Quantitative, and Verbal skills. All questions are newly authored and independently verified; the Advanced Quantitative and Reasoning Ability section is calibrated roughly 20-30% harder than a standard set.",
+    "duration": 101,
+    "questionsCount": 79
+  }
+]

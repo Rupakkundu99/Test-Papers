@@ -1,0 +1,40 @@
+name: Auto Build Catalog
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'papers/**'
+      - 'update_catalog.py'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Build Catalog
+      run: python update_catalog.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add papers/catalog.json
+        if git diff --staged --quiet; then
+          echo "No changes in catalog.json. Skipping commit."
+        else
+          git commit -m "chore: auto-regenerate papers/catalog.json [skip ci]"
+          git push
+        fi
