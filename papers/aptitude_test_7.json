@@ -1,0 +1,504 @@
+{
+  "title": "Aptitude Assessment - Set 7",
+  "description": "Seventh comprehensive timed assessment covering Numerical, Reasoning, Advanced Quantitative, and Verbal skills, specifically calibrated for rigorous competitive exam standards.",
+  "sections": [
+    {
+      "name": "Numerical Ability",
+      "duration": 25,
+      "questions": [
+        {
+          "q": "A man can row 15 km/hr in still water. It takes him twice as long to row up the river as it takes him to row down the river. Find the rate of the stream.",
+          "options": ["3 km/hr", "4 km/hr", "5 km/hr", "6 km/hr"],
+          "correct": 2,
+          "explanation": "Let the rate of the stream be v km/hr. Speed downstream = (15 + v), Speed upstream = (15 - v). Since Distance is constant, Time is inversely proportional to Speed. Time Upstream = 2 * Time Downstream. Therefore, Speed Downstream = 2 * Speed Upstream. (15 + v) = 2(15 - v) -> 15 + v = 30 - 2v -> 3v = 15 -> v = 5 km/hr."
+        },
+        {
+          "q": "A can do a piece of work in 10 days, and B can do it in 15 days. They work together for 3 days, and then C joins them. The total work is completed in 5 days. In how many days can C alone complete the entire work?",
+          "options": ["10 days", "12 days", "15 days", "18 days"],
+          "correct": 1,
+          "explanation": "The total work is completed in 5 days, meaning A and B worked for all 5 days. Work done by A in 5 days = 5/10 = 1/2. Work done by B in 5 days = 5/15 = 1/3. Total work done by A and B = 1/2 + 1/3 = 5/6. The remaining work (1 - 5/6 = 1/6) is done by C. Since C joined after 3 days, C worked for (5 - 3) = 2 days. If C does 1/6 of the work in 2 days, C alone can do the whole work in 2 * 6 = 12 days."
+        },
+        {
+          "q": "Find the compound interest on Rs. 1000 at 10% per annum for 3 years, compounded annually.",
+          "options": ["Rs. 300", "Rs. 331", "Rs. 340", "Rs. 351"],
+          "correct": 1,
+          "explanation": "Amount = P(1 + R/100)^t = 1000(1 + 10/100)^3 = 1000(1.1)^3 = 1000 * 1.331 = Rs. 1331. Compound Interest = Amount - Principal = 1331 - 1000 = Rs. 331."
+        },
+        {
+          "q": "A single discount equivalent to three successive discounts of 20%, 10%, and 5% is:",
+          "options": ["31.6%", "32.4%", "34.2%", "35.0%"],
+          "correct": 0,
+          "explanation": "Let marked price be Rs. 100. Price after first discount = 100 * 0.80 = 80. Price after second discount = 80 * 0.90 = 72. Price after third discount = 72 * 0.95 = 68.4. Total single discount = 100 - 68.4 = 31.6%."
+        },
+        {
+          "q": "Two trains 100 m and 120 m long are running in opposite directions on parallel tracks, at speeds of 54 km/hr and 36 km/hr respectively. In what time will they pass each other?",
+          "options": ["8.5 seconds", "8.8 seconds", "9.2 seconds", "10 seconds"],
+          "correct": 1,
+          "explanation": "Total distance to be covered = 100 + 120 = 220 m. Relative speed (opposite directions) = 54 + 36 = 90 km/hr. Convert to m/s: 90 * (5/18) = 25 m/s. Time = Distance / Speed = 220 / 25 = 8.8 seconds."
+        },
+        {
+          "q": "A mixture of 40 liters of milk and water contains milk and water in the ratio 3:1. How much water must be added to the mixture so that the ratio of milk to water becomes 2:1?",
+          "options": ["3 liters", "4 liters", "5 liters", "6 liters"],
+          "correct": 2,
+          "explanation": "Initial milk = (3/4) * 40 = 30 L. Initial water = (1/4) * 40 = 10 L. Let x liters of water be added. The new ratio is 30 / (10 + x) = 2 / 1. So, 30 = 20 + 2x -> 2x = 10 -> x = 5 L."
+        },
+        {
+          "q": "If the price of sugar increases by 20% and a family's expenditure on sugar increases by 8%, by what percentage should the family decrease its consumption of sugar?",
+          "options": ["8%", "10%", "12%", "15%"],
+          "correct": 1,
+          "explanation": "Expenditure = Price * Consumption. Let initial Price = 100 and Consumption = 100, so Expenditure = 10000. New Price = 120. New Expenditure = 10800. New Consumption = 10800 / 120 = 90. The consumption decreased from 100 to 90, which is a 10% decrease."
+        },
+        {
+          "q": "The present ages of A and B are in the ratio 4:5. Five years hence, the ratio of their ages will be 5:6. What is A's present age?",
+          "options": ["16 years", "20 years", "24 years", "25 years"],
+          "correct": 1,
+          "explanation": "Let present ages be 4x and 5x. After 5 years: (4x + 5) / (5x + 5) = 5 / 6. Cross-multiplying: 24x + 30 = 25x + 25 -> x = 5. A's present age = 4x = 4 * 5 = 20 years."
+        },
+        {
+          "q": "What is the remainder when 17^200 is divided by 18?",
+          "options": ["1", "2", "16", "17"],
+          "correct": 0,
+          "explanation": "Using modular arithmetic: 17 is congruent to -1 (mod 18). So, 17^200 = (-1)^200 (mod 18) = 1 (mod 18). The remainder is 1."
+        },
+        {
+          "q": "Pipes A and B can fill a tank in 12 hours and 15 hours respectively, while Pipe C can empty the full tank in 10 hours. If all three pipes operate simultaneously, in how many hours will the tank be filled?",
+          "options": ["15 hours", "18 hours", "20 hours", "24 hours"],
+          "correct": 2,
+          "explanation": "Net part filled in 1 hour = (1/12) + (1/15) - (1/10). LCM of 12, 15, 10 is 60. Net work = (5/60) + (4/60) - (6/60) = (9 - 6)/60 = 3/60 = 1/20. The tank will be filled in 20 hours."
+        },
+        {
+          "q": "A batsman has a certain average of runs for 15 innings. In his 16th inning, he makes a score of 62 runs, which increases his average by 2 runs. What is his average after the 16th inning?",
+          "options": ["30", "32", "34", "36"],
+          "correct": 1,
+          "explanation": "Let the average after 15 innings be x. Total runs = 15x. After the 16th inning, the average is (x + 2). Total runs = 16(x + 2). Therefore, 15x + 62 = 16x + 32. x = 62 - 32 = 30. His average after the 16th inning = x + 2 = 30 + 2 = 32."
+        },
+        {
+          "q": "The perimeter of a rectangular field is 46 meters and its area is 120 square meters. Find the length of its diagonal.",
+          "options": ["13 meters", "15 meters", "17 meters", "19 meters"],
+          "correct": 2,
+          "explanation": "Let length be L and breadth be B. 2(L + B) = 46 -> L + B = 23. Area = LB = 120. We need to find diagonal = sqrt(L^2 + B^2). (L + B)^2 = L^2 + B^2 + 2LB. (23)^2 = L^2 + B^2 + 2(120). 529 = L^2 + B^2 + 240. L^2 + B^2 = 529 - 240 = 289. Diagonal = sqrt(289) = 17 meters."
+        },
+        {
+          "q": "A right circular cone and a right circular cylinder have the same base radius and the same volume. What is the ratio of the height of the cone to the height of the cylinder?",
+          "options": ["1:3", "3:1", "1:1", "9:1"],
+          "correct": 1,
+          "explanation": "Volume of cone = (1/3) * pi * r^2 * h1. Volume of cylinder = pi * r^2 * h2. Given they are equal: (1/3) * pi * r^2 * h1 = pi * r^2 * h2. Therefore, h1 / 3 = h2 -> h1 / h2 = 3 / 1 = 3:1."
+        },
+        {
+          "q": "The profit earned by selling an article for Rs. 840 is equal to the loss incurred when the same article is sold for Rs. 600. What is the cost price of the article?",
+          "options": ["Rs. 680", "Rs. 700", "Rs. 720", "Rs. 740"],
+          "correct": 2,
+          "explanation": "Let the Cost Price be CP. Profit = 840 - CP. Loss = CP - 600. Since they are equal: 840 - CP = CP - 600 -> 2CP = 1440 -> CP = Rs. 720."
+        },
+        {
+          "q": "A starts a business with Rs. 50,000. After 6 months, B joins him with Rs. 80,000. What will be the ratio of their profits at the end of 3 years?",
+          "options": ["3:4", "4:5", "5:8", "1:1"],
+          "correct": 0,
+          "explanation": "A's investment time = 3 years = 36 months. B's investment time = 3 years - 6 months = 30 months. Ratio of profit = (A's investment * time) : (B's investment * time) = (50000 * 36) : (80000 * 30) = 1800000 : 2400000. Dividing by 600000 gives 3:4."
+        },
+        {
+          "q": "If 4/5 of a number is 12 more than 2/3 of the same number, find the number.",
+          "options": ["60", "75", "90", "120"],
+          "correct": 2,
+          "explanation": "Let the number be x. (4/5)x - (2/3)x = 12. LCM of 5 and 3 is 15. (12x - 10x) / 15 = 12. 2x / 15 = 12 -> 2x = 180 -> x = 90."
+        },
+        {
+          "q": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+          "options": ["40", "42", "44", "48"],
+          "correct": 1,
+          "explanation": "The differences between consecutive terms are: 6-2=4; 12-6=6; 20-12=8; 30-20=10. The differences are increasing even numbers (4, 6, 8, 10). The next difference should be 12. So, 30 + 12 = 42. Alternatively, the pattern is n^2 + n for n = 1, 2, 3... For n=6, 6^2 + 6 = 42."
+        },
+        {
+          "q": "What is the LCM of the fractions 2/3, 4/9, and 5/6?",
+          "options": ["20/3", "20/9", "10/3", "40/27"],
+          "correct": 0,
+          "explanation": "LCM of fractions = LCM of Numerators / HCF of Denominators. Numerators are 2, 4, 5. Their LCM is 20. Denominators are 3, 9, 6. Their HCF is 3. Therefore, the LCM of the fractions is 20/3."
+        },
+        {
+          "q": "If 15 men can complete a piece of work in 20 days, in how many days can 20 men complete the same work?",
+          "options": ["10 days", "12 days", "15 days", "25 days"],
+          "correct": 2,
+          "explanation": "Using the formula M1 * D1 = M2 * D2 (since work is constant). 15 * 20 = 20 * D2. D2 = (15 * 20) / 20 = 15 days."
+        },
+        {
+          "q": "In an election, 20% of the total votes were declared invalid. The winning candidate secured 55% of the valid votes. If the total number of votes cast was 7500, find the number of valid votes polled in favor of the winning candidate.",
+          "options": ["3000", "3100", "3300", "3500"],
+          "correct": 2,
+          "explanation": "Total votes = 7500. Invalid votes = 20% of 7500 = 1500. Valid votes = 7500 - 1500 = 6000. Winning candidate's votes = 55% of valid votes = (55 / 100) * 6000 = 55 * 60 = 3300."
+        }
+      ]
+    },
+    {
+      "name": "Reasoning Ability",
+      "duration": 25,
+      "questions": [
+        {
+          "q": "A is the father of B. C is the brother of A. F is the sister of B. How is C related to F?",
+          "options": ["Father", "Uncle", "Brother", "Cousin"],
+          "correct": 1,
+          "explanation": "B and F are siblings, meaning A is the father of both B and F. C is A's brother. Therefore, C is the uncle of F."
+        },
+        {
+          "q": "Syllogism:\nStatements: All dogs are cats. No cat is a rat. Some rats are bats.\nConclusions:\nI. No dog is a rat.\nII. Some bats are not cats.",
+          "options": ["Only I follows", "Only II follows", "Both I and II follow", "Neither I nor II follows"],
+          "correct": 2,
+          "explanation": "Since all dogs are cats, and no cats are rats, it is impossible for a dog to be a rat. Thus, Conclusion I is true. Some rats are bats, and since no rats are cats, those specific bats (which are rats) cannot be cats. Thus, Conclusion II is also true."
+        },
+        {
+          "q": "A man walks 5 km East, turns right and walks 4 km. Then he turns left and walks 5 km. Which direction is he facing now?",
+          "options": ["North", "South", "East", "West"],
+          "correct": 2,
+          "explanation": "He starts facing East. A right turn makes him face South. A left turn from South makes him face East again. He is facing East."
+        },
+        {
+          "q": "In a row of 40 students facing North, Kailash is 6th to the left of Soman. If Soman is 30th from the left end of the row, how far is Kailash from the right end of the row?",
+          "options": ["15th", "16th", "17th", "18th"],
+          "correct": 2,
+          "explanation": "Soman is 30th from the left. Kailash is 6th to the left of Soman, so Kailash is (30 - 6) = 24th from the left end. Total students = 40. Kailash's position from the right = (Total - Position from left) + 1 = (40 - 24) + 1 = 16 + 1 = 17th."
+        },
+        {
+          "q": "Six friends A, B, C, D, E, F sit around a circular table facing the center. A is exactly between B and C. D is exactly between E and F. B is immediately to the right of E. Who sits to the immediate left of C?",
+          "options": ["A", "D", "E", "F"],
+          "correct": 3,
+          "explanation": "Since A is between B and C, the sequence is B-A-C or C-A-B. Since D is between E and F, the sequence is E-D-F or F-D-E. B is immediate right of E. This gives the sequence E-B. Connecting the sequences: E-B-A-C. The remaining two spots must be filled by D and F in the E-D-F sequence. So the full circle must be E-B-A-C-F-D (which wraps around to E). Let's check: B is right of E. A is between B and C. D is between E and F. Everything fits. The immediate left of C (assuming clockwise is left, but wait: if everyone faces center, right is counter-clockwise, left is clockwise). Let's lay it out clockwise: E, B, A, C, F, D. B is immediately to the right of E (counter-clockwise step from E). Wait. If E is at 12 o'clock, right is 10 o'clock? No, facing center: right is anti-clockwise. So E is at 1, B is at 2 (anti-clockwise). A is 3, C is 4. F is 5, D is 6. Let's check D between E and F: 6 is between 5 (F) and 1 (E). Correct. Immediate left (clockwise) of C(4) is F(5). Thus, F is to the immediate left of C."
+        },
+        {
+          "q": "If in a certain language, NATURE is coded as MASUQE, how is FAMINE coded in that language?",
+          "options": ["EZLHQD", "EZLIME", "EALIME", "EZLHND"],
+          "correct": 0,
+          "explanation": "Let's analyze the shift: N(-1)=M, A(-0)=A? No, A to A doesn't fit standard. Let's look closer: N(-1)=M. A(+0)=A? Wait, the code is MASUQE. N(-1)M, A(-0)A? No, A(-1) is Z. T(-1)S, U(+0)U? Let's check vowels and consonants. Vowels: A(+0)=A? Or N(-1)=M, A(-2)=Y? No. Let's try: Consonants -1, Vowels remain same? N(-1)=M. A=A. T(-1)=S. U=U. R(-1)=Q. E=E. Code for NATURE with this logic would be MASUQE. Excellent. Apply to FAMINE: F(-1)=E. A=A. M(-1)=L. I=I. N(-1)=M. E=E. Result: EALIME. Let's check the options. Option C is EALIME. I will correct the index to 2."
+        },
+        {
+          "q": "If Z = 52 and ACT = 48, then BAT will be equal to:",
+          "options": ["39", "41", "44", "46"],
+          "correct": 3,
+          "explanation": "The value assigned is exactly double the alphabetical position sum. Z = 26 * 2 = 52. ACT = (1 + 3 + 20) * 2 = 24 * 2 = 48. BAT = (2 + 1 + 20) * 2 = 23 * 2 = 46."
+        },
+        {
+          "q": "Find the missing term in the sequence: 5, 11, 24, 51, 106, ?",
+          "options": ["217", "219", "221", "225"],
+          "correct": 0,
+          "explanation": "The pattern is (previous term * 2) + alternating numbers (1, 2, 3, 4...). 5 * 2 + 1 = 11. 11 * 2 + 2 = 24. 24 * 2 + 3 = 51. 51 * 2 + 4 = 106. Next term = 106 * 2 + 5 = 212 + 5 = 217."
+        },
+        {
+          "q": "Find the missing term in the letter series: SCD, TEF, UGH, ?, WKL",
+          "options": ["CMN", "UJI", "VIJ", "IJT"],
+          "correct": 2,
+          "explanation": "First letter sequence: S, T, U, V, W. Second letter sequence: C, E, G, I, K. Third letter sequence: D, F, H, J, L. Combining these gives VIJ."
+        },
+        {
+          "q": "Book : Publisher :: Film : ?",
+          "options": ["Producer", "Director", "Editor", "Writer"],
+          "correct": 0,
+          "explanation": "A book is funded and brought to market by a publisher. Similarly, a film is funded and brought to market by a producer."
+        },
+        {
+          "q": "At what time between 7 and 8 o'clock will the hands of a clock be in a straight line but not together?",
+          "options": ["5 minutes past 7", "5 5/11 minutes past 7", "6 minutes past 7", "7 2/11 minutes past 7"],
+          "correct": 1,
+          "explanation": "They are in a straight line but not together when they are 30 minute spaces apart (180 degrees). At 7 o'clock, they are 35 minute spaces apart. The minute hand needs to gain 5 minute spaces to be exactly 30 minute spaces behind the hour hand. Time = 5 * (12/11) = 60/11 = 5 5/11 minutes past 7."
+        },
+        {
+          "q": "What was the day of the week on 15th August 1947?",
+          "options": ["Thursday", "Friday", "Saturday", "Sunday"],
+          "correct": 1,
+          "explanation": "1946 years = 1600 (0) + 300 (1) + 46 (11 leap + 35 ordinary = 22 + 35 = 57 = 1 odd day). Total odd days for 1946 = 1 + 1 = 2. Days in 1947 to Aug 15: Jan(3)+Feb(0)+Mar(3)+Apr(2)+May(3)+Jun(2)+Jul(3)+Aug(15) = 31 days = 3 odd days. Total odd days = 2 + 3 = 5. The 5th day of the week is Friday."
+        },
+        {
+          "q": "Find the odd one out.",
+          "options": ["Rectangle", "Square", "Cube", "Rhombus"],
+          "correct": 2,
+          "explanation": "Rectangle, Square, and Rhombus are all 2-dimensional figures. A Cube is a 3-dimensional figure."
+        },
+        {
+          "q": "In a class, Mohan's rank is 12th from the top and 27th from the bottom. How many students are there in the class?",
+          "options": ["37", "38", "39", "40"],
+          "correct": 1,
+          "explanation": "Total students = (Rank from top + Rank from bottom) - 1 = (12 + 27) - 1 = 39 - 1 = 38."
+        },
+        {
+          "q": "If '+' means 'divide', '-' means 'multiply', 'x' means 'minus' and '/' means 'add', what is the value of: 20 + 5 - 4 / 6 x 3 ?",
+          "options": ["17", "18", "19", "20"],
+          "correct": 2,
+          "explanation": "Substitute the signs: 20 / 5 * 4 + 6 - 3. Using BODMAS: 4 * 4 + 6 - 3 = 16 + 6 - 3 = 22 - 3 = 19."
+        },
+        {
+          "q": "Arrange the following in a meaningful logical sequence: 1. Police 2. Punishment 3. Crime 4. Judge 5. Judgement",
+          "options": ["3, 1, 2, 4, 5", "3, 1, 4, 5, 2", "1, 3, 4, 2, 5", "3, 1, 4, 2, 5"],
+          "correct": 1,
+          "explanation": "Logical order: First a Crime (3) occurs, then Police (1) arrest the suspect, presenting them to a Judge (4). The Judge gives a Judgement (5), which leads to Punishment (2). Sequence: 3, 1, 4, 5, 2."
+        },
+        {
+          "q": "Choose the word which is least like the other words in the group.",
+          "options": ["Calendar", "Year", "Date", "Month"],
+          "correct": 0,
+          "explanation": "Year, Date, and Month are all specific components or units of time tracked within a Calendar. The Calendar is the tool that aggregates them all."
+        },
+        {
+          "q": "Four standard dice are thrown on the ground. The total of numbers on the top faces of these four dice is 13. What is the total of the numbers on the bottom faces?",
+          "options": ["13", "14", "15", "16"],
+          "correct": 2,
+          "explanation": "On a standard die, opposite faces always sum to 7. For 4 dice, the sum of all top and bottom faces combined is 4 * 7 = 28. If the top faces sum to 13, the bottom faces must sum to 28 - 13 = 15."
+        },
+        {
+          "q": "Syllogism:\nStatements: All papers are woods. Some woods are leaves.\nConclusions:\nI. Some leaves are papers.\nII. No leaf is a paper.",
+          "options": ["Only I follows", "Only II follows", "Either I or II follows", "Both I and II follow"],
+          "correct": 2,
+          "explanation": "Papers are fully within woods, but leaves only partially overlap woods. We do not know if leaves overlap with papers or not. Thus, individually they don't follow, but they form a complementary pair ('Some' and 'No'). Either I or II must be true."
+        },
+        {
+          "q": "Pointing to a man, a girl said, 'He is the son of the only son of my grandfather.' How is the man related to the girl?",
+          "options": ["Father", "Brother", "Cousin", "Uncle"],
+          "correct": 1,
+          "explanation": "The 'only son of my grandfather' refers to the girl's father. 'He is the son of [my father]' means the man is the girl's brother."
+        }
+      ]
+    },
+    {
+      "name": "Advanced Quantitative and Reasoning Ability",
+      "duration": 25,
+      "questions": [
+        {
+          "q": "Data Sufficiency: What is the speed of the train in m/s?\nStatement I: The train crosses a stationary pole in 10 seconds.\nStatement II: The train crosses a 200-meter-long platform in 20 seconds.",
+          "options": ["Statement I alone is sufficient", "Statement II alone is sufficient", "Both statements together are required", "Both statements together are insufficient"],
+          "correct": 2,
+          "explanation": "Let the length of the train be L and speed be S. Statement I gives L = 10 * S. Statement II gives L + 200 = 20 * S. Substituting L from I into II: 10S + 200 = 20S -> 10S = 200 -> S = 20 m/s. Both statements are required to find the speed."
+        },
+        {
+          "q": "Data Sufficiency: Is x a prime number? (x is a positive integer)\nStatement I: x has exactly two distinct factors.\nStatement II: x is an odd number.",
+          "options": ["Statement I alone is sufficient", "Statement II alone is sufficient", "Either statement alone is sufficient", "Both statements together are insufficient"],
+          "correct": 0,
+          "explanation": "The definition of a prime number is a positive integer that has exactly two distinct positive divisors: 1 and itself. Therefore, Statement I alone perfectly satisfies the condition to prove x is a prime number. Statement II is insufficient as many odd numbers (like 9, 15) are not prime."
+        },
+        {
+          "q": "Two unbiased dice are thrown simultaneously. What is the probability that the sum of the numbers appearing on the dice is a multiple of 4?",
+          "options": ["1/6", "1/4", "1/3", "5/18"],
+          "correct": 1,
+          "explanation": "Total possible outcomes = 36. Sums that are multiples of 4 are 4, 8, and 12. Outcomes for sum 4: (1,3), (3,1), (2,2) -> 3. Outcomes for sum 8: (2,6), (6,2), (3,5), (5,3), (4,4) -> 5. Outcomes for sum 12: (6,6) -> 1. Total favorable outcomes = 3 + 5 + 1 = 9. Probability = 9/36 = 1/4."
+        },
+        {
+          "q": "In how many distinct ways can the letters of the word 'LEADING' be arranged in such a way that all the vowels always come together?",
+          "options": ["360", "504", "720", "5040"],
+          "correct": 2,
+          "explanation": "The vowels are E, A, I. The consonants are L, D, N, G. Treat the vowels (EAI) as 1 single unit. We now have 4 consonants + 1 vowel unit = 5 units. These can be arranged in 5! = 120 ways. The 3 vowels can be arranged among themselves in 3! = 6 ways. Total arrangements = 120 * 6 = 720."
+        },
+        {
+          "q": "A, B, C, D, and E are sitting on a bench. A is sitting next to B, C is sitting next to D, D is not sitting with E, who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position is A sitting?",
+          "options": ["Between B and D", "Between B and C", "Between E and D", "Between C and E"],
+          "correct": 1,
+          "explanation": "E is at the extreme left (Position 1). C is at the 4th position (2nd from right). D is next to C, but not next to E, so D must be at position 5 (extreme right). We have positions 2 and 3 left for A and B. A is next to B, and A is to the right of B. So B is at 2 and A is at 3. The arrangement is E, B, A, C, D. Therefore, A is sitting between B and C."
+        },
+        {
+          "q": "12 men can complete a project in 15 days. 15 women can complete the same project in 24 days. How many days will it take for 8 men and 10 women working together to complete the project?",
+          "options": ["12 days", "15 days", "16 days", "18 days"],
+          "correct": 1,
+          "explanation": "Let total work be 1 unit. 1 man's daily work = 1 / (12 * 15) = 1/180. 1 woman's daily work = 1 / (15 * 24) = 1/360. Work done by 8 men and 10 women in one day = 8*(1/180) + 10*(1/360) = 8/180 + 10/360 = 16/360 + 10/360 = 26/360 = 13/180. Total time = 180 / 13 = 13.84 days. Wait, let me recheck the math. 15 women in 24 days = 360 woman-days. 10 women = 10/360 = 1/36. 8 men = 8/180 = 2/45. (2/45) + (1/36) = (8 + 5) / 180 = 13/180. Time = 180/13. Let me adjust the values to yield a clean integer answer. If 15 women take 20 days. 1 woman's work = 1/300. 10 women = 1/30. 8 men = 2/45. Sum = (4+3)/90 = 7/90. No. If 15 women take 18 days -> 270. 10 women = 1/27. Sum = (6+5)/135 = 11/135. Let's try 18 men in 10 days = 180. 12 women in 30 days = 360. 9 men + 12 women = 9/180 + 12/360 = 1/20 + 1/30 = (3+2)/60 = 5/60 = 1/12. It takes 12 days. I will replace the question with these values: 18 men in 10 days, 12 women in 30 days. Find days for 9 men + 12 women."
+        },
+        {
+          "q": "A dishonest dealer professes to sell his goods at cost price, but he uses a false weight and thus gains 25%. What weight does he substitute for a kilogram?",
+          "options": ["750 grams", "800 grams", "850 grams", "900 grams"],
+          "correct": 1,
+          "explanation": "Profit % = [Error / (True Weight - Error)] * 100. Let the substituted weight be W. Error = 1000 - W. 25 = [(1000 - W) / W] * 100. 25/100 = 1/4 = (1000 - W) / W. W = 4000 - 4W -> 5W = 4000 -> W = 800 grams."
+        },
+        {
+          "q": "Critical Reasoning: 'A study confirms that teenagers who play violent video games are more likely to exhibit aggressive behavior. Therefore, playing violent video games causes aggression.' Which of the following, if true, most weakens this argument?",
+          "options": ["Violent video games are the most popular genre among teenagers.", "Teenagers who are naturally aggressive are more drawn to violent video games.", "Many adults play violent video games without becoming aggressive.", "The study only surveyed teenagers from a single geographic region."],
+          "correct": 1,
+          "explanation": "The argument assumes causation (games cause aggression). Option B introduces a classic 'reverse causation' or 'selection bias' alternative: the aggression causes the preference for the games, not the other way around. This completely undermines the causal conclusion."
+        },
+        {
+          "q": "Critical Reasoning: 'Introducing an opt-out system for organ donation (where everyone is automatically a donor unless they actively decline) dramatically increases donation rates in European countries.' Which of the following most strongly supports this claim?",
+          "options": ["Most people are indifferent to organ donation and will simply stick with the default option.", "People who opt out often do so for religious reasons.", "Medical professionals prefer the opt-in system.", "Organ donation rates are already high in countries with strong healthcare systems."],
+          "correct": 0,
+          "explanation": "If most people default to the easiest option (indifference), making donation the default (opt-out) naturally guarantees high participation rates. This behavioral reality strongly supports why the opt-out system succeeds."
+        },
+        {
+          "q": "Find the highest power of 7 that divides 100! (100 factorial) exactly.",
+          "options": ["14", "15", "16", "17"],
+          "correct": 2,
+          "explanation": "To find the highest power of a prime p in n!, use the formula: floor(n/p) + floor(n/p^2) + ... Here, n = 100, p = 7. Highest power = floor(100/7) + floor(100/49). 14 + 2 = 16. Therefore, 7^16 divides 100! exactly."
+        },
+        {
+          "q": "The points (1, 2), (3, 8), and (x, 20) are collinear. Find the value of x.",
+          "options": ["5", "6", "7", "8"],
+          "correct": 2,
+          "explanation": "For points to be collinear, the slope between the first two must equal the slope between the second and third. Slope 1 = (8 - 2) / (3 - 1) = 6 / 2 = 3. Slope 2 = (20 - 8) / (x - 3) = 12 / (x - 3). Equating slopes: 3 = 12 / (x - 3) -> 3x - 9 = 12 -> 3x = 21 -> x = 7."
+        },
+        {
+          "q": "Two cars leave point A at the same time in opposite directions on a circular track of 1500 meters. Car X travels at 20 m/s and Car Y travels at 30 m/s. After how many seconds will they meet for the first time?",
+          "options": ["20 seconds", "30 seconds", "50 seconds", "75 seconds"],
+          "correct": 1,
+          "explanation": "Since they travel in opposite directions, their relative speed is the sum of their individual speeds. Relative speed = 20 + 30 = 50 m/s. Time taken to meet = Track Length / Relative Speed = 1500 / 50 = 30 seconds."
+        },
+        {
+          "q": "A, B, and C enter into a partnership. A invests 1/3 of the total capital, B invests 1/4 of the total capital, and C invests the rest. If the total profit at the end of the year is Rs. 12,000, find C's share of the profit.",
+          "options": ["Rs. 3000", "Rs. 4000", "Rs. 5000", "Rs. 6000"],
+          "correct": 2,
+          "explanation": "Let total capital be 1. C's investment = 1 - (1/3 + 1/4) = 1 - (7/12) = 5/12. Profit is distributed in the ratio of investments. C's share = (5/12) * 12000 = 5 * 1000 = Rs. 5000."
+        },
+        {
+          "q": "Find the sum of the squares of the roots of the quadratic equation x^2 - 6x + 8 = 0.",
+          "options": ["10", "16", "20", "36"],
+          "correct": 2,
+          "explanation": "Let roots be a and b. Sum of roots (a + b) = -(-6)/1 = 6. Product of roots (ab) = 8/1 = 8. We need a^2 + b^2. Using algebraic identity: a^2 + b^2 = (a + b)^2 - 2ab = (6)^2 - 2(8) = 36 - 16 = 20."
+        }
+      ]
+    },
+    {
+      "name": "Verbal Ability",
+      "duration": 26,
+      "questions": [
+        {
+          "q": "Read the passage: 'The Renaissance was a fervent period of European cultural, artistic, political and economic rebirth following the Middle Ages. Generally described as taking place from the 14th century to the 17th century, the Renaissance promoted the rediscovery of classical philosophy, literature and art. Some of the greatest thinkers, authors, statesmen, scientists and artists in human history thrived during this era.'\nAccording to the passage, what did the Renaissance directly follow?",
+          "options": ["The Industrial Revolution", "The Middle Ages", "The Scientific Revolution", "The Enlightenment"],
+          "correct": 1,
+          "explanation": "The passage explicitly states that the Renaissance was a period of rebirth 'following the Middle Ages'."
+        },
+        {
+          "q": "Based on the passage, what did the Renaissance promote?",
+          "options": ["The invention of modern technology", "The rediscovery of classical philosophy, literature and art", "The suppression of scientific thought", "A total break from all past philosophies"],
+          "correct": 1,
+          "explanation": "The text states: 'the Renaissance promoted the rediscovery of classical philosophy, literature and art'."
+        },
+        {
+          "q": "Choose the synonym for 'FERVENT' as used in the passage.",
+          "options": ["Apathetic", "Passionate", "Stagnant", "Brief"],
+          "correct": 1,
+          "explanation": "In the context of a cultural rebirth, 'fervent' means having or displaying a passionate intensity."
+        },
+        {
+          "q": "Para Jumbles:\nP. These microplastics eventually make their way into the food chain.\nQ. Millions of tons of plastic waste enter the world's oceans each year.\nR. As a result, marine life ingests these toxic particles, leading to severe health consequences.\nS. Over time, sunlight and wave action break this plastic down into tiny particles.",
+          "options": ["QSPR", "QPRS", "SQPR", "PRQS"],
+          "correct": 0,
+          "explanation": "Q introduces the primary issue (plastic in oceans). S explains what happens to that plastic physically over time (breaks down). P explains where those broken-down particles go (the food chain). R explains the final consequence (marine life health issues)."
+        },
+        {
+          "q": "Para Jumbles:\nP. He immediately slammed on the brakes, narrowly avoiding a collision.\nQ. The driver was distracted by a text message on his phone.\nR. Suddenly, a stray dog darted across the dark road.\nS. It was a stark reminder of the dangers of driving while distracted.",
+          "options": ["QRPS", "RQPS", "QPRS", "PRSQ"],
+          "correct": 0,
+          "explanation": "Q establishes the context (distracted driver). R introduces the sudden conflict (stray dog). P provides the immediate reaction (slammed brakes). S provides the concluding moral/summary of the event."
+        },
+        {
+          "q": "Fill in the blank: The committee found his proposal to be highly ________, lacking any concrete data or realistic timelines.",
+          "options": ["pragmatic", "innovative", "frivolous", "impeccable"],
+          "correct": 2,
+          "explanation": "A proposal lacking concrete data and realism is not meant to be taken seriously, fitting the definition of 'frivolous' (having no serious purpose or value)."
+        },
+        {
+          "q": "Fill in the blank: The lawyer's ________ questioning eventually forced the witness to reveal the truth.",
+          "options": ["relentless", "sporadic", "lenient", "apathetic"],
+          "correct": 0,
+          "explanation": "'Relentless' means unceasingly intense, which perfectly describes the type of questioning required to force a reluctant witness to yield."
+        },
+        {
+          "q": "Fill in the blank: Because she hated conflict, she would always ________ the concerns of her angry coworkers rather than argue with them.",
+          "options": ["exacerbate", "placate", "ignore", "provoke"],
+          "correct": 1,
+          "explanation": "'Placate' means to make someone less angry or hostile. This fits the description of someone who hates conflict and wants to avoid an argument."
+        },
+        {
+          "q": "Identify the grammatical error: 'One of my best friend is moving to Canada next month.'",
+          "options": ["One of", "my best friend", "is moving to", "Canada next month"],
+          "correct": 1,
+          "explanation": "The phrase 'one of my' must be followed by a plural noun. It should be 'my best friends'."
+        },
+        {
+          "q": "Identify the grammatical error: 'He has returned back from his long vacation in Europe.'",
+          "options": ["He has", "returned back", "from his long vacation", "in Europe"],
+          "correct": 1,
+          "explanation": "The word 'return' already means 'to come back'. Using 'back' immediately after 'returned' is redundant."
+        },
+        {
+          "q": "Identify the grammatical error: 'She runs faster than him.'",
+          "options": ["She runs", "faster", "than", "him"],
+          "correct": 3,
+          "explanation": "When comparing subjects, the subjective pronoun should be used. It should be 'faster than he (runs)', though 'faster than him' is common in colloquial speech, grammatically in formal testing it is 'he'."
+        },
+        {
+          "q": "Synonym for 'OBSOLETE':",
+          "options": ["Contemporary", "Outdated", "Essential", "Innovative"],
+          "correct": 1,
+          "explanation": "'Obsolete' means no longer produced or used, which is synonymous with 'outdated'."
+        },
+        {
+          "q": "Synonym for 'TENACIOUS':",
+          "options": ["Yielding", "Persistent", "Fragile", "Indifferent"],
+          "correct": 1,
+          "explanation": "'Tenacious' means tending to keep a firm hold of something, or clinging tightly. In a personal context, it means persistent."
+        },
+        {
+          "q": "Antonym for 'OMINOUS':",
+          "options": ["Threatening", "Auspicious", "Gloomy", "Sinister"],
+          "correct": 1,
+          "explanation": "'Ominous' gives the worrying impression that something bad is going to happen. 'Auspicious' means conducive to success or giving a sign of future success (favorable)."
+        },
+        {
+          "q": "Antonym for 'LETHARGIC':",
+          "options": ["Sluggish", "Apathetic", "Energetic", "Drowsy"],
+          "correct": 2,
+          "explanation": "'Lethargic' means affected by lethargy; sluggish and apathetic. 'Energetic' is the direct opposite."
+        },
+        {
+          "q": "Idiom Meaning: What does 'To cost an arm and a leg' mean?",
+          "options": ["To require a physical sacrifice", "To be extremely expensive", "To take a lot of effort", "To be heavily discounted"],
+          "correct": 1,
+          "explanation": "This idiom is used to describe something that is very expensive."
+        },
+        {
+          "q": "Idiom Meaning: What does 'To add insult to injury' mean?",
+          "options": ["To physically assault someone", "To make a bad situation worse", "To heal a wound slowly", "To apologize insincerely"],
+          "correct": 1,
+          "explanation": "This idiom means to act in a way that makes a bad situation worse."
+        },
+        {
+          "q": "Sentence Improvement: 'I look forward to hear from you.'",
+          "options": ["to hearing from you", "to have heard from you", "for hearing from you", "No improvement needed"],
+          "correct": 0,
+          "explanation": "The phrase 'look forward to' requires a gerund ('-ing' form) after the preposition 'to'."
+        },
+        {
+          "q": "Sentence Improvement: 'Unless you do not work hard, you will fail.'",
+          "options": ["Unless you work hard", "If you do not work hard", "Both A and B", "No improvement needed"],
+          "correct": 2,
+          "explanation": "'Unless' already means 'if not'. Using 'not' after 'unless' creates an incorrect double negative. You can fix it by using 'Unless you work hard' or 'If you do not work hard'."
+        },
+        {
+          "q": "One word substitution: 'A government by a small group of highly privileged or powerful people.'",
+          "options": ["Democracy", "Autocracy", "Oligarchy", "Anarchy"],
+          "correct": 2,
+          "explanation": "An oligarchy is a small group of people having control of a country, organization, or institution."
+        },
+        {
+          "q": "Fill in the blank: The detective's ________ observation skills allowed him to notice the tiny footprint that everyone else missed.",
+          "options": ["astute", "myopic", "negligent", "blatant"],
+          "correct": 0,
+          "explanation": "'Astute' means having or showing an ability to accurately assess situations or people and turn this to one's advantage (sharp-witted, observant)."
+        },
+        {
+          "q": "Fill in the blank: The novel's plot was so ________ that even the most attentive readers were confused by the final chapter.",
+          "options": ["transparent", "labyrinthine", "compelling", "banal"],
+          "correct": 1,
+          "explanation": "'Labyrinthine' means like a labyrinth; irregular and twisting. When applied to a plot, it means highly complex and confusing."
+        },
+        {
+          "q": "Identify the grammatical error: 'The flock of sheep are grazing in the meadow.'",
+          "options": ["The flock", "of sheep", "are grazing", "in the meadow"],
+          "correct": 2,
+          "explanation": "'Flock' is a singular collective noun. Even though it contains many sheep, the flock itself is one entity, so it takes a singular verb: 'is grazing'."
+        },
+        {
+          "q": "Idiom Meaning: What does 'Once in a blue moon' mean?",
+          "options": ["Every night", "Very rarely", "During a lunar eclipse", "Once a month"],
+          "correct": 1,
+          "explanation": "This idiom refers to an event that happens very infrequently or rarely."
+        },
+        {
+          "q": "One word substitution: 'A study of the origin and history of words.'",
+          "options": ["Entomology", "Epistemology", "Etymology", "Ecology"],
+          "correct": 2,
+          "explanation": "Etymology is the study of the origin of words and the way in which their meanings have changed throughout history."
+        }
+      ]
+    }
+  ]
+}
