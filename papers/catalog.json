@@ -33,5 +33,19 @@
     "description": "Fifth comprehensive timed assessment covering Numerical, Reasoning, Advanced Quantitative, and Verbal skills, featuring enhanced difficulty in Quantitative and Reasoning sections.",
     "duration": 101,
     "questionsCount": 79
+  },
+  {
+    "id": "aptitude_test_6",
+    "title": "Aptitude Assessment - Set 6",
+    "description": "Sixth comprehensive timed assessment covering Numerical, Reasoning, Advanced Quantitative, and Verbal skills, maintaining a rigorous standard for competitive exam preparation.",
+    "duration": 101,
+    "questionsCount": 79
+  },
+  {
+    "id": "aptitude_test_7",
+    "title": "Aptitude Assessment - Set 7",
+    "description": "Seventh comprehensive timed assessment covering Numerical, Reasoning, Advanced Quantitative, and Verbal skills, specifically calibrated for rigorous competitive exam standards.",
+    "duration": 101,
+    "questionsCount": 79
   }
 ]
